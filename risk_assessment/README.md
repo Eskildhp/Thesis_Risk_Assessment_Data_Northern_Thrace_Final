@@ -92,11 +92,12 @@ This file contains the site-level standardized criterion scores and final WLC re
 
 ## Folder structure
 
-risk\_assessment/
+```text
+risk_assessment/
     ├── README.md
     └── results/
-        └── WLC\_site\_results.csv
-
+        └── WLC_site_results.csv
+```
 
 ## Relationship to the analytical workflow
 
