@@ -4,7 +4,7 @@ The folder has the public version of the archaeological site master table contai
 
 ### File
 
-`Sites\_master.csv`
+`Sites_master.csv`
 
 ### Dataset contents
 
@@ -19,7 +19,7 @@ The dataset contains fields relating to:
 * Cluster assignment
 * Final weighted linear combination (WLC) risk score and risk class
 * Monte Carlo uncertainty data
-* Getis-Ord Gi\* hot-spot analysis data
+* Getis-Ord Gi* hot-spot analysis data
 
 The field names correspond to the database used in the analyses.
 
@@ -27,17 +27,17 @@ The field names correspond to the database used in the analyses.
 
 |Field|Description|
 |-|-|
-|`Site\_ID`|Unique identifier assigned to each site|
+|`Site_ID`|Unique identifier assigned to each site|
 |`Site`|Standardized site name|
 |`Region`|Administrative region (*oblast*) where the site is located|
 |`Location`|Closest nearby settlement or geographic reference|
-|`Material\_general`|General site construction material used|
-|`Exposure\_class`|Classification of the site exposure|
-|`Exposure\_tx`|Text description corresponding to the exposure classification|
-|`Int\_Status`|International cultural heritage status information (where applicable)|
-|`Nat\_Status`|National cultural heritage status information (where applicable)|
+|`Material_general`|General site construction material used|
+|`Exposure_class`|Classification of the site exposure|
+|`Exposure_tx`|Text description corresponding to the exposure classification|
+|`Int_Status`|International cultural heritage status information (where applicable)|
+|`Nat_Status`|National cultural heritage status information (where applicable)|
 
-Chronological information is stored in period fields. A site may have evidence from more than one chronological phase. In these cases the associated `\_class` fields record the site classification used for that period. Chronological fields include: Paleolithic, Neolithic, Chalcolithic, Bronze Age, Iron Age, Roman, Early Byzantine, First Bulgarian Empire and Second Bulgarian Empire.
+Chronological information is stored in period fields. A site may have evidence from more than one chronological phase. In these cases the associated `_class` fields record the site classification used for that period. Chronological fields include: Paleolithic, Neolithic, Chalcolithic, Bronze Age, Iron Age, Roman, Early Byzantine, First Bulgarian Empire and Second Bulgarian Empire.
 
 ### Environmental variables
 
@@ -45,34 +45,34 @@ The master table contains environmental values used in the clustering, risk asse
 
 |Field|Description|
 |-|-|
-|`DEM\_`|Elevation value in the environmental dataset|
-|`Slope\_`|Terrain slope|
-|`Aspect\_cos\_`|Cosine-transformed aspect|
-|`Aspect\_sin\_`|Sine-transformed aspect|
-|`FL\_Dist`|Flood related distance variable|
-|`FL\_Depth`|Flood depth variable|
-|`rusle\_cluster`|RUSLE soil erosion value for the environmental workflow|
-|`rusle\_log`|Log-transformed RUSLE variable used in the environmental workflow; interpretation should be read together with Rusle_MTH|
-|`Final\_FWI`|Final Fire Weather Index value used in the analysis|
+|`DEM_`|Elevation value in the environmental dataset|
+|`Slope_`|Terrain slope|
+|`Aspect_cos_`|Cosine-transformed aspect|
+|`Aspect_sin_`|Sine-transformed aspect|
+|`FL_Dist`|Flood related distance variable|
+|`FL_Depth`|Flood depth variable|
+|`rusle_cluster`|RUSLE soil erosion value for the environmental workflow|
+|`rusle_log`|Log-transformed RUSLE variable used in the environmental workflow; interpretation should be read together with Rusle_MTH|
+|`Final_FWI`|Final Fire Weather Index value used in the analysis|
 |`ELSUS`|Landslide susceptibility value|
 |`PGA`|Peak ground acceleration value used for the seismic criterion|
 |`Lithology`|Lithological classification for context|
-|`CLC\_code`|CORINE Land Cover code|
-|`CLC\_text`|CORINE Land Cover class description|
+|`CLC_code`|CORINE Land Cover code|
+|`CLC_text`|CORINE Land Cover class description|
 
 ### Standardized risk fields
 
 |Field|Description|
 |-|-|
-|`SEIS\_SCR`|Standardized seismic hazard score|
-|`FLOOD\_SCR`|Standardized flood hazard score|
-|`FWI\_SCR`|Standardized wildfire hazard score|
-|`ELSUS\_SCR`|Standardized landslide susceptibility score|
-|`RUSLE\_SCR`|Standardized soil erosion score|
-|`ASSET\_SCR`|Standardized vulnerability score|
-|`Cluster\_3`|Final environmental cluster assigned using Ward hierarchical clustering|
-|`WLC\_RISK2`|Final weighted linear combination risk score|
-|`RISK\_CLASS2`|Final risk class|
+|`SEIS_SCR`|Standardized seismic hazard score|
+|`FLOOD_SCR`|Standardized flood hazard score|
+|`FWI_SCR`|Standardized wildfire hazard score|
+|`ELSUS_SCR`|Standardized landslide susceptibility score|
+|`RUSLE_SCR`|Standardized soil erosion score|
+|`ASSET_SCR`|Standardized vulnerability score|
+|`Cluster_3`|Final environmental cluster assigned using Ward hierarchical clustering|
+|`WLC_RISK2`|Final weighted linear combination risk score|
+|`RISK_CLASS2`|Final risk class|
 
 ### Method and status fields
 
@@ -80,11 +80,11 @@ Several fields record how environmental values were assigned or handled during t
 
 |Field|Description|
 |-|-|
-|`Rusle\_MTH`|Method or status information for the RUSLE soil erosion criterion|
-|`FWI\_MTH`|Method or status information for the Fire Weather Index criterion|
-|`FWI\_DIST`|Distance to the substituted FWI value where nearest-valid-value handling was needed|
-|`ELSUS\_MTH`|Method or status information for the ELSUS landslide susceptibility criterion|
-|`ELSUS\_DIST`|Distance to the nearest valid ELSUS value used to determine direct, nearest-value, or NoData status|
+|`Rusle_MTH`|Method or status information for the RUSLE soil erosion criterion|
+|`FWI_MTH`|Method or status information for the Fire Weather Index criterion|
+|`FWI_DIST`|Distance to the substituted FWI value where nearest-valid-value handling was needed|
+|`ELSUS_MTH`|Method or status information for the ELSUS landslide susceptibility criterion|
+|`ELSUS_DIST`|Distance to the nearest valid ELSUS value used to determine direct, nearest-value, or NoData status|
 
 
 
@@ -94,19 +94,19 @@ The dataset contains selected site-level outputs from the Monte Carlo uncertaint
 
 |Field|Description|
 |-|-|
-|`MC\_Mean\_WLC`|Mean WLC risk score across the Monte Carlo simulations|
-|`MC\_SD`|Standard deviation of the simulated WLC risk scores|
-|`MC\_CV\_Pct`|Coefficient of Variation (CV) calculated from the simulated WLC scores|
-|`MC\_Min\_WLC`|Minimum simulated WLC risk score|
-|`MC\_Max\_WLC`|Maximum simulated WLC risk score|
-|`Baseline\_Class\_Stability\_Pct`|Percentage of simulations where the site stayed in the baseline risk class|
+|`MC_Mean_WLC`|Mean WLC risk score across the Monte Carlo simulations|
+|`MC_SD`|Standard deviation of the simulated WLC risk scores|
+|`MC_CV_Pct`|Coefficient of Variation (CV) calculated from the simulated WLC scores|
+|`MC_Min_WLC`|Minimum simulated WLC risk score|
+|`MC_Max_WLC`|Maximum simulated WLC risk score|
+|`Baseline_Class_Stability_Pct`|Percentage of simulations where the site stayed in the baseline risk class|
 
 ### Hot-spot analysis outputs
 
 |Field|Description|
 |-|-|
-|`Gi\_Bin`|Getis-Ord Gi\* significance bin |
-|`gi\_class`|Text interpretation of the corresponding hotspot, cold-spot or non-significant classification|
+|`Gi_Bin`|Getis-Ord Gi\* significance bin |
+|`gi_class`|Text interpretation of the corresponding hotspot, cold-spot or non-significant classification|
 
 ### Data sanitization
 
@@ -114,21 +114,21 @@ The public dataset is derived from the final internal site master table but with
 
 The following spatial fields are excluded from the public version:
 
-* `X\_coordinate`
-* `Y\_coordinate`
+* `X_coordinate`
+* `Y_coordinate`
 
 `Region` and `Location` are included only as broader geographic reference fields. `Location` identifies the closest nearby settlement or geographic reference and should not be interpreted as the precise position of the archaeological site.
 
 ### Relationship to the repository
 
-`Sites\_master.csv` is the central public site-level dataset in the repository.
+`Sites_master.csv` is the central public site-level dataset in the repository.
 
 More specialized files are located in the analysis folders:
 
 * `clustering/` contains the transformed variables and outputs used for environmental clustering
 * `risk\_assessment/` contains the final WLC risk assessment outputs
-* `sensitivity\_analysis/inputs/` contains the fields required for the One-at-a-Time sensitivity analysis
-* `uncertainty\_analysis/inputs/` contains the fields required for the Monte Carlo uncertainty analysis
+* `sensitivity_analysis/inputs/` contains the fields required for the One-at-a-Time sensitivity analysis
+* `uncertainty_analysis/inputs/` contains the fields required for the Monte Carlo uncertainty analysis
 
 The files are derived from the same site database but are limited to the variables required for each analytical step.
 
@@ -137,7 +137,7 @@ The files are derived from the same site database but are limited to the variabl
 ```text
 data/
 ├── README.md
-└── Sites\_master.csv
+└── Sites_master.csv
 ```
 
 ### Data use
