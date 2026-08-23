@@ -1,0 +1,16 @@
+THRACE AHP SENSITIVITY ANALYSIS
+==================================
+
+Run: 2026-08-23T15:53:00
+Sites in source CSV: 250
+Sites with documented intentional N/A values: 78
+Sites with unexpected missing criterion values: 0
+Perturbation direction: both; adjacent steps: 1
+
+Cluster 1: baseline CR=0.074482; eligible sites=178
+Cluster 2: baseline CR=0.060137; eligible sites=41
+Cluster 3: baseline CR=0.075520; eligible sites=31
+
+Sensitivity runs: 90
+CR accepted: 90
+CR rejected: 0

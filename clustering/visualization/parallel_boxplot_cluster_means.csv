@@ -1,0 +1,19 @@
+Cluster,Variable,Mean_standardized_value,Number_of_sites
+1,Elevation,-0.4099018211150514,178
+1,Slope,-0.42675665834142384,178
+1,North–south aspect component,0.019914055963492234,178
+1,East–west aspect component,0.029336214493221414,178
+1,Log-transformed estimated soil loss,0.09077876583262864,178
+1,Distance to the modelled flood zone,0.06877971225418937,178
+2,Elevation,1.5264521843616121,41
+2,Slope,0.3793325791421236,41
+2,North–south aspect component,0.15971781609011246,41
+2,East–west aspect component,-0.05554328462877381,41
+2,Log-transformed estimated soil loss,-0.8886317398891709,41
+2,Distance to the modelled flood zone,0.09301231213667324,41
+3,Elevation,0.3347736967642613,31
+3,Slope,1.9487112722569355,31
+3,North–south aspect component,-0.3255849168128249,31
+3,East–west aspect component,-0.09498617774067127,31
+3,Log-transformed estimated soil loss,0.6540413231374839,31
+3,Distance to the modelled flood zone,-0.5179449541558151,31

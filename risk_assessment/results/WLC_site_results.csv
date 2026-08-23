@@ -1,0 +1,251 @@
+Site_ID,Site,Cluster_3,SEIS_SCR,FLOOD_SCR,FWI_SCR,ELSUS_SCR,RUSLE_SCR,ASSET_SCR,WLC_RISK,RISK_CLASS
+SITE_0001,Ahtopol Fortress,1,1,1,3,5,,1,2.187942650592102,Low
+SITE_0002,Kozareva Mogila,1,1,1,3,3,3,7,3.029679329228782,Low
+SITE_0003,Poros Fortress,1,1,5,3,5,,1,2.322316885660033,Low
+SITE_0004,Cape Akra settlement,1,1,1,3,,,1,1.745816912757584,Very Low
+SITE_0005,Deultum,1,1,5,5,1,,1,2.423348994389111,Low
+SITE_0006,Gornoto Gradishte,1,1,5,5,1,3,1,2.474148478997223,Low
+SITE_0007,Antimovo Fortress,1,3,1,7,5,7,1,4.374991710713660,Moderate
+SITE_0008,Poros Fortress wall,1,1,7,3,,,1,1.979068750532837,Very Low
+SITE_0009,Dolmen Dragon house,1,1,1,3,5,1,5,2.761951633910441,Low
+SITE_0010,Urdoviza Fortress,1,1,1,3,7,,1,2.459670286057857,Low
+SITE_0011,Gradishte Fortress II,1,3,1,3,9,5,1,3.518960035887733,Low
+SITE_0012,Mishkova Niva,2,1,1,3,5,1,3,3.165557606700695,Low
+SITE_0013,Necropolis City of the dead,1,1,1,3,7,1,7,3.349071491573100,Low
+SITE_0014,Golyamoto Kale,1,1,1,5,3,1,1,2.423213902596010,Low
+SITE_0015,Church of Christ Pantokrator,1,1,1,3,,,3,2.176432474650664,Low
+SITE_0016,Church of St. John Aliturgetos,1,1,1,3,,,3,2.176432474650664,Low
+SITE_0017,Church of St. John the Baptist,1,1,1,3,,,3,2.176432474650664,Low
+SITE_0018,Church of St. Paraskeva,1,1,1,3,,,3,2.176432474650664,Low
+SITE_0019,Church of St. Stefan,1,1,1,3,,,3,2.176432474650664,Low
+SITE_0020,Church of St. Theodore,1,1,1,3,,,3,2.176432474650664,Low
+SITE_0021,Church of St. Vlahara,1,1,1,3,,,3,2.176432474650664,Low
+SITE_0022,Church of the Holy Archangels,1,1,1,3,,,3,2.176432474650664,Low
+SITE_0023,Fortification of Mesembria Pontica,1,3,1,3,,,1,2.491633825515168,Low
+SITE_0024,Foundations of Basilica Eliusa,1,1,1,3,,,3,2.176432474650664,Low
+SITE_0025,Mesembria Terms,1,1,1,3,,,1,1.745816912757584,Very Low
+SITE_0026,Mesembria West St. John,1,3,1,3,5,,9,4.320871980969083,Moderate
+SITE_0027,Stara Mitropolia,1,1,1,3,,,3,2.176432474650664,Low
+SITE_0028,Anchialos Building,1,1,1,3,1,1,1,1.587711918585122,Very Low
+SITE_0029,Anchialos Christian Church,1,1,1,3,3,,1,1.916215015126346,Very Low
+SITE_0030,Anchialos Church,1,1,1,3,3,,3,2.288325502805443,Low
+SITE_0031,Anchialos Fortification,1,1,1,3,3,,1,1.916215015126346,Very Low
+SITE_0032,Anchialos Necropolis,1,1,1,3,3,,7,3.032546478163639,Low
+SITE_0033,Pomorie tomb,1,1,1,3,3,3,3,2.351019744754995,Low
+SITE_0034,Begliktash,1,1,1,3,5,1,5,2.761951633910441,Low
+SITE_0035,Chengerska mound,1,1,1,3,3,1,7,2.853491360721569,Low
+SITE_0036,Mound Stamopolu,1,1,1,3,3,1,7,2.853491360721569,Low
+SITE_0037,Oriospotamo,1,1,1,3,,,1,1.745816912757584,Very Low
+SITE_0038,Ranuli Fortress,1,1,1,3,7,1,1,2.331082114862419,Low
+SITE_0039,Thera Fortress foundation,1,1,1,3,,1,1,1.670823634758045,Very Low
+SITE_0040,Rusokastro Fortress,1,1,1,5,7,1,1,2.918794033447541,Low
+SITE_0041,Apollonia Pontica Cape Skamni,1,1,1,3,,,1,1.745816912757584,Very Low
+SITE_0042,Apollonia Pontica Chapel,1,1,1,3,7,,3,2.831780773736956,Low
+SITE_0043,Fortification of St. John Monastery,1,1,1,3,,,7,3.037663598436825,Low
+SITE_0044,Island St. Kirik and St. Julita,1,1,1,3,,,1,1.745816912757584,Very Low
+SITE_0045,Mesarite,1,1,1,3,7,1,9,3.688401283809994,Low
+SITE_0046,Monastery of St. John the Baptist,1,1,1,3,,,3,2.176432474650664,Low
+SITE_0047,Necropolis of Apollonia I,1,1,1,3,5,,7,3.304274113629396,Low
+SITE_0048,Necropolis of Apollonia II,1,1,1,3,7,,7,3.576001749095151,Low
+SITE_0049,Necropolis of Apollonia III,1,1,1,3,7,,7,3.576001749095151,Low
+SITE_0050,Sozopolis Southern Complex,1,1,1,3,,,3,2.176432474650664,Low
+SITE_0051,Sozopolis Southern Fortification,1,1,1,3,7,,1,2.459670286057857,Low
+SITE_0052,St. Marina Oikos,1,1,1,3,5,1,9,3.440611218384228,Low
+SITE_0053,Via sacra,1,1,1,3,5,,1,2.187942650592102,Low
+SITE_0054,Aquae Calidae,1,3,1,3,5,,1,2.832430030252691,Low
+SITE_0055,Alexandrovo Tomb,1,7,1,9,1,1,7,6.131972806806535,High
+SITE_0056,Asara Shrine and Fortress,1,7,1,3,7,3,1,4.270405839124999,Moderate
+SITE_0057,Dolmen Slavova Koriya,1,7,1,7,1,5,5,5.557307032998946,Moderate
+SITE_0058,Dolmen Gaidarov dolap,1,7,1,7,3,5,5,5.805097098424712,Moderate
+SITE_0059,Deaf Stones,2,7,1,9,9,1,5,7.530966644429848,High
+SITE_0060,Cromlech,1,7,1,9,5,1,5,6.288223145421173,High
+SITE_0061,Mound Dolno Botevo,1,7,1,9,3,5,7,6.732138809246726,High
+SITE_0062,Kovan Kaya,1,3,5,9,3,1,5,4.987545916144930,Moderate
+SITE_0063,Kovan Kaya niches I,3,3,3,9,7,1,5,5.404898306466009,Moderate
+SITE_0064,Gledka mound I,1,7,1,9,3,5,7,6.732138809246726,High
+SITE_0065,Gledka mound II,1,7,1,9,3,5,7,6.732138809246726,High
+SITE_0066,Furnadzhika,2,7,1,9,5,1,5,5.827130832752441,Moderate
+SITE_0067,Dolmen Gorno Voyvodino,1,7,1,9,3,5,5,6.392809017009833,High
+SITE_0068,Dolmen Nachovi chairi,1,5,1,7,1,5,5,4.969595114413824,Moderate
+SITE_0069,Rodostitsa Fortress,1,7,5,9,5,1,1,5.732100234267152,Moderate
+SITE_0070,Villa Armira,1,5,1,9,3,1,1,4.774061576936497,Moderate
+SITE_0071,Castra Rubra,1,7,1,9,1,3,1,5.290171398603068,Moderate
+SITE_0072,Kapitan Petko Voyvoda mound I,1,5,1,9,3,5,7,6.144426890661604,High
+SITE_0073,Sanctuary of Nymphs and Aphrodite,1,9,1,9,3,7,1,6.478049319628381,High
+SITE_0074,Fortress Klokotnitsa,1,9,1,9,1,1,1,5.701695348680976,Moderate
+SITE_0075,Fortified ruling house,1,5,7,9,1,1,1,4.710076521490381,Moderate
+SITE_0076,Dolmen Mangura,2,7,1,7,5,1,5,5.529738028923304,Moderate
+SITE_0077,Dolmen Starite Loza,2,7,1,7,5,1,5,5.529738028923304,Moderate
+SITE_0078,Hambar Kaya II,3,7,5,9,7,1,5,6.363027094991579,High
+SITE_0079,Deaf Stones Church,2,7,1,9,7,1,3,6.514719747396993,High
+SITE_0080,Bukelon Fortress,1,5,1,9,7,5,1,5.622017644802455,Moderate
+SITE_0081,Matochina Rock Church,1,7,1,9,5,1,3,5.948893353184279,Moderate
+SITE_0082,Merichleri mound I,1,9,1,9,1,,7,7.272230500322014,High
+SITE_0083,Merichleri mound II,1,9,1,9,1,,7,7.272230500322014,High
+SITE_0084,Merichleri mound III,1,9,1,9,1,,7,7.272230500322014,High
+SITE_0085,Mezek Tumulus,1,7,1,9,1,3,7,6.308160775313748,High
+SITE_0086,Neutzikon Fortress,1,7,1,9,5,1,1,5.609563560947386,Moderate
+SITE_0087,Mihalich Rock Church,3,7,1,9,3,7,3,4.883870291750426,Moderate
+SITE_0088,Dolmen Bayamluka,1,7,1,7,1,1,5,5.204931095984520,Moderate
+SITE_0089,Orlovo Town,1,7,1,9,3,1,1,5.361773495521620,Moderate
+SITE_0090,Dolmen Kapakliyka II,1,7,1,7,1,3,5,5.381119064491734,Moderate
+SITE_0091,Mehir Stone Chuchul,1,7,1,9,1,3,5,5.968830983076855,Moderate
+SITE_0092,Ak Kaya,3,3,5,9,7,9,5,6.343972573856036,High
+SITE_0093,Kara inn,3,3,5,9,7,9,5,6.343972573856036,High
+SITE_0094,Dolmen Plevun,1,5,1,9,1,7,5,5.733495001506159,Moderate
+SITE_0095,Kovan Kaya niches II,2,3,3,9,7,1,5,5.684674035351662,Moderate
+SITE_0096,Efraim Fortress,3,3,5,9,9,5,1,6.576204340424651,High
+SITE_0097,Dolmen Bakalov kladenets,1,7,1,7,1,1,5,5.204931095984520,Moderate
+SITE_0098,Dolmen Byalata treva,1,7,1,7,5,3,5,5.876699195343265,Moderate
+SITE_0099,Dolmen Kapakliyka I,1,7,1,7,3,1,5,5.452721161410286,Moderate
+SITE_0100,Dolmen Kliftinova niva,1,7,1,7,5,1,5,5.700511226836052,Moderate
+SITE_0101,Dolmen Paskalevi kelemeta,1,7,1,7,3,1,5,5.452721161410286,Moderate
+SITE_0102,Dolmen Sakartsi,2,7,1,7,1,1,5,3.825902217245897,Low
+SITE_0103,Burdenis Fortress,1,7,7,9,3,3,1,5.721766474008483,Moderate
+SITE_0104,Svilengrad mound necropolis,1,7,3,9,5,1,7,6.688821274317949,High
+SITE_0105,Svirachi Golyamata Mogila,1,5,1,9,3,3,7,5.968238922154391,Moderate
+SITE_0106,Paleokastro Fortress,2,5,1,7,5,1,1,4.666058105411608,Moderate
+SITE_0107,Paparimsko Kale,2,7,1,7,3,1,1,4.349162140696299,Moderate
+SITE_0108,Holy Trinity Monastery,1,7,1,9,3,5,3,6.053479224772939,High
+SITE_0109,Orlovi Skali,3,3,1,5,7,3,5,5.112875586307884,Moderate
+SITE_0110,Dupchen Kamak,1,3,1,5,7,5,5,4.537541473520878,Moderate
+SITE_0111,Hambar Dere Necropolis,1,3,1,9,5,1,7,5.452129100487822,Moderate
+SITE_0112,Chernichino mound,2,5,1,9,5,1,7,5.456437882823198,Moderate
+SITE_0113,Patmos Fortress,1,5,5,3,7,9,1,4.333794499381283,Moderate
+SITE_0114,Duzhdovnitsa niches,3,5,1,3,5,9,5,5.063006106915652,Moderate
+SITE_0115,Perperikon,2,5,1,9,7,1,1,5.815368815079449,Moderate
+SITE_0116,Church of St. John Prodomus,1,3,7,3,3,,3,3.134374235067931,Low
+SITE_0117,Necropolis of St. John Prodomus,1,3,7,3,3,1,7,3.625008289286340,Low
+SITE_0118,Toplitsa,1,7,1,5,1,5,1,4.290935529940037,Moderate
+SITE_0119,Moryantsi tomb,1,3,1,9,7,5,5,5.712965310691121,Moderate
+SITE_0120,Sivri Kaya niches,3,7,1,1,9,9,5,7.132481489099137,High
+SITE_0121,Arkata,3,3,5,9,7,1,5,5.481237177546833,Moderate
+SITE_0122,Gouk in cave,3,3,5,9,5,1,5,4.559105041277628,Moderate
+SITE_0123,Pop Martinova Dypka,3,3,5,9,9,1,5,6.403369313816040,High
+SITE_0124,Ada Tepe,2,3,1,9,7,1,9,5.937662838732659,Moderate
+SITE_0125,Redestyuk Fortress,2,3,1,9,3,1,1,3.576511062278647,Low
+SITE_0126,Tatul,2,3,1,9,7,1,3,5.444675865150205,Moderate
+SITE_0127,Ustra,2,3,1,5,9,1,1,5.537479172136482,Moderate
+SITE_0128,Vishegrad Fortress,1,3,5,9,7,9,1,5.509218336551527,Moderate
+SITE_0129,Hambar Kaya,2,3,1,5,9,1,7,6.030466145718935,High
+SITE_0130,Asar Kaya niches,3,7,1,3,9,5,5,6.916797640021836,High
+SITE_0131,Mal Asar,2,3,1,5,9,1,7,6.030466145718935,High
+SITE_0132,Sredna Arda Rock cut niches,3,3,7,9,7,5,5,5.988943746782260,Moderate
+SITE_0133,Shan Kaya,3,3,1,9,7,1,5,5.328559435385185,Moderate
+SITE_0134,Belovo Basilica,2,9,1,1,7,1,3,5.860170473203838,Moderate
+SITE_0135,St. Spas Basilica,2,9,1,1,7,1,3,5.860170473203838,Moderate
+SITE_0136,Roman bridge Bratsigovo,2,7,1,1,7,1,1,5.160819540886294,Moderate
+SITE_0137,Dzhenevra,2,7,1,1,7,1,1,5.160819540886294,Moderate
+SITE_0138,Pashino Bardo,2,7,1,1,7,1,1,5.160819540886294,Moderate
+SITE_0139,Tsepina,2,9,1,1,9,1,1,6.547759387848391,High
+SITE_0140,Church of St. Dimitar,1,9,1,1,7,,3,4.765242912718726,Moderate
+SITE_0141,Peristera Fortress,1,7,1,1,1,,1,2.933462138981770,Low
+SITE_0142,Kulata Gradot,2,9,1,1,7,1,1,5.695841482009687,Moderate
+SITE_0143,The tower Kalinkata,2,9,1,1,7,1,1,5.695841482009687,Moderate
+SITE_0144,Tatarsko Kale,2,3,1,1,7,1,1,4.090775658639505,Moderate
+SITE_0145,Emporion Pistiros,1,9,9,1,1,3,1,3.772108989487233,Low
+SITE_0146,Zhaba Mogila,1,5,1,1,3,5,7,3.793579216321116,Low
+SITE_0147,Lyubnishko Kale,2,9,1,1,7,1,1,5.695841482009687,Moderate
+SITE_0148,Bona Mansio,1,9,1,1,1,3,1,3.527035642847700,Low
+SITE_0149,Tell Yunatsite,1,9,3,3,1,5,9,5.709523035547494,Moderate
+SITE_0150,Anevo Kale,2,3,1,1,7,1,1,4.090775658639505,Moderate
+SITE_0151,Asenova Fortress,3,9,7,1,7,5,1,6.190360555094185,High
+SITE_0152,Bachkovo Monastery,1,7,7,1,7,7,3,4.558204659770847,Moderate
+SITE_0153,Church of St. George Metokha,1,9,7,1,5,,3,4.695076629854867,Moderate
+SITE_0154,Church of the Holy Virgin of Petrich,3,9,7,1,7,5,3,6.319626890867180,High
+SITE_0155,Stanimaka Fortress ruins,1,9,5,1,3,,1,3.984051389176047,Low
+SITE_0156,Golyama Dragoyna,2,9,1,5,7,1,7,6.783614063250416,High
+SITE_0157,Monastery of St. Cyril and St. Yulita,2,9,1,1,5,1,3,5.008252567365135,Moderate
+SITE_0158,Diocletionopolis,3,5,1,1,1,,1,1.988378563954328,Very Low
+SITE_0159,Hisarya Basilica 1,1,5,1,1,1,,3,2.661085247000278,Low
+SITE_0160,Hisarya Basilica 3,1,5,1,1,1,,3,2.661085247000278,Low
+SITE_0161,Hisarya Basilica 8,1,5,1,1,1,,3,2.661085247000278,Low
+SITE_0162,Hisarya Fortress walls,1,5,1,1,1,,1,2.288974759321180,Low
+SITE_0163,Hisarya Roman Baths,3,5,1,1,1,,1,1.988378563954328,Very Low
+SITE_0164,Stone of Tsar Asen,3,7,5,1,5,1,1,4.319626890867180,Moderate
+SITE_0165,Monastery of Saints Cosmas and Damian,3,9,1,1,7,5,3,6.090610277624707,High
+SITE_0166,Maltepe,1,9,5,3,1,1,7,5.079085642956056,Moderate
+SITE_0167,Red Church,1,9,1,1,1,5,3,4.042553403591808,Moderate
+SITE_0168,Ancient Theatre of Philippopolis,3,9,3,5,1,,1,3.545834047346820,Low
+SITE_0169,Domus Eirene,1,9,3,5,1,,1,4.934111395497506,Moderate
+SITE_0170,East Gate Philippopolis,1,9,5,5,1,,1,5.001298513031472,Moderate
+SITE_0171,Episcopal Great Basilica,1,9,1,5,1,,3,5.239034765642638,Moderate
+SITE_0172,Hellenistic buildings,1,9,1,5,1,,7,5.983255741000835,Moderate
+SITE_0173,Hisarya Kapia,1,9,5,5,1,,1,5.001298513031472,Moderate
+SITE_0174,Inner Fortress wall of Philippopolis,3,9,5,5,1,,1,3.631400577741501,Low
+SITE_0175,Minor Basilica,1,9,3,5,1,,3,5.306221883176604,Moderate
+SITE_0176,Nebet Tepe,1,9,5,5,1,,1,5.001298513031472,Moderate
+SITE_0177,Outer Fortress wall of Philippopolis,1,9,5,5,1,,1,5.001298513031472,Moderate
+SITE_0178,Peristyle building and street intersection,1,9,3,5,1,,1,4.934111395497506,Moderate
+SITE_0179,Philippopolis Roman Baths I,1,9,3,5,1,,1,4.934111395497506,Moderate
+SITE_0180,Remains of Fortress wall of Philippopolis,1,9,3,5,1,,1,4.934111395497506,Moderate
+SITE_0181,Roman Forum of Philippopolis,1,9,1,5,1,,1,4.866924277963541,Moderate
+SITE_0182,Roman Stadium of Philippopolis,1,9,3,5,1,,1,4.934111395497506,Moderate
+SITE_0183,Spas Bair hill,1,9,1,3,1,5,1,4.290935529940037,Moderate
+SITE_0184,Belintash,2,7,1,1,9,3,5,6.417064608120605,High
+SITE_0185,Chetinyova Mogila,3,5,1,1,7,7,7,5.683036880803251,Moderate
+SITE_0186,Horizon mound,1,5,1,1,1,1,7,3.193413213880925,Low
+SITE_0187,Royal tomb,1,5,1,1,7,7,7,4.465347315679862,Moderate
+SITE_0188,Church of St. Nicholas,1,9,3,5,1,,3,5.306221883176604,Moderate
+SITE_0189,Chintulovo mound,1,3,1,1,3,3,7,3.029679329228782,Low
+SITE_0190,Nanchovata Mogila,1,3,3,1,3,5,7,3.267135634395878,Low
+SITE_0191,Dyadovo settlement,1,3,1,5,3,,3,3.577300,Low
+SITE_0192,Kaloyanovo Mound I,1,3,1,3,5,3,7,3.865181313239670,Low
+SITE_0193,Kaloyanovo Mound II,1,3,1,3,5,3,7,3.865181313239670,Low
+SITE_0194,Kaloyanovo Mound III,1,3,1,3,5,5,7,4.041369281746882,Moderate
+SITE_0195,Kaloyanovo Tumulus,1,3,1,3,5,5,7,4.041369281746882,Moderate
+SITE_0196,Kamen mogila,1,3,1,7,7,3,7,5.288395215835680,Moderate
+SITE_0197,Kota 255,1,3,1,5,9,5,1,4.106671954472856,Moderate
+SITE_0198,Prehistoric Wide Mound,1,3,1,5,5,5,9,4.968410992568899,Moderate
+SITE_0199,Roman Karanovo mound,1,3,1,5,5,3,7,4.452893231824791,Moderate
+SITE_0200,Tell Karanovo,1,3,1,5,1,,9,4.421904089698162,Moderate
+SITE_0201,Boz Bair,1,3,1,7,3,1,7,4.616627116476935,Moderate
+SITE_0202,Boz Bair mound I,1,3,1,7,3,5,7,4.969003053491361,Moderate
+SITE_0203,Boz Bair mound II,1,3,1,7,5,5,7,5.216793118917128,Moderate
+SITE_0204,Tuida Fortress,1,3,1,1,7,7,1,2.859646020384059,Low
+SITE_0205,Sokol Himitliyata,1,3,1,5,1,1,7,3.781125132466046,Low
+SITE_0206,Staro Selo Mogila,1,3,1,7,5,7,7,5.392981087424340,Moderate
+SITE_0207,Tvarditsa Fortress,3,3,1,1,9,3,1,5.345107352876498,Moderate
+SITE_0208,Gela Basilica,2,7,1,1,9,3,3,6.252735616926454,High
+SITE_0209,Gradishte Fortress,2,5,1,1,9,5,1,5.629053863616217,Moderate
+SITE_0210,Momchilova Fortress,2,5,1,1,7,5,1,4.777135957777514,Moderate
+SITE_0211,Kaleto Fortress Koshnitsa,2,5,1,1,7,1,1,4.625797599762899,Moderate
+SITE_0212,Uleya Cave,3,5,1,1,5,5,5,4.415954559683750,Moderate
+SITE_0213,St. Ilia Fortress,2,5,1,1,7,5,1,4.777135957777514,Moderate
+SITE_0214,Yagodinska Cave,3,5,1,1,5,1,5,3.984586861529148,Low
+SITE_0215,Tyovnata dupka,2,7,1,1,7,5,5,5.640815881289210,Moderate
+SITE_0216,Bratya Daskalovi mound,1,9,1,3,3,,7,5.610495996806000,Moderate
+SITE_0217,Momina Mogila,1,9,1,3,5,5,7,5.804505037502249,Moderate
+SITE_0218,Buzovo Kale,2,3,3,1,7,1,1,4.166444837646812,Moderate
+SITE_0219,Thracian domed tomb,1,3,5,1,7,5,7,3.823984101907293,Low
+SITE_0220,Pizus Fortress,1,9,1,5,1,3,1,4.702459480017946,Moderate
+SITE_0221,Tomb of Kazanlak,2,3,1,1,5,1,7,3.731844726383254,Low
+SITE_0222,Kran Fortress,3,3,1,1,7,5,1,4.638659065684593,Moderate
+SITE_0223,Kesteleva Mogila,1,3,1,1,5,1,7,3.101281426147334,Low
+SITE_0224,Malak Dol mound,1,9,1,3,3,3,7,5.380527003569269,Moderate
+SITE_0225,Karasura,1,9,1,5,1,1,1,4.526271511510732,Moderate
+SITE_0226,Tomb of Sashnova,1,3,1,1,1,5,7,2.958077232310229,Low
+SITE_0227,Golyama Arsenalka tomb,1,3,1,1,1,1,7,2.605701295295803,Low
+SITE_0228,Mezideva Fortress,2,3,1,1,7,1,1,4.090775658639505,Moderate
+SITE_0229,Ostrusha tomb,3,3,1,1,3,5,7,3.182193800465166,Low
+SITE_0230,Sarafova Mogila,1,3,1,1,3,1,7,2.853491360721569,Low
+SITE_0231,Tomb of Helvetia,1,3,1,1,3,,7,3.032546478163639,Low
+SITE_0232,Tomb of Malka Kosmatka,1,3,1,1,3,5,7,3.205867297735995,Low
+SITE_0233,Tomb of Seuthes III,1,3,1,1,3,5,7,3.205867297735995,Low
+SITE_0234,Tomb of Shushmanets,3,3,1,1,7,,7,5.029656261296402,Moderate
+SITE_0235,Tomb of Svetitzata,1,3,1,1,1,5,7,2.958077232310229,Low
+SITE_0236,Tomb of The Griffins,1,3,1,1,3,3,7,3.029679329228782,Low
+SITE_0237,Augusta Traiana Vereia,1,5,1,3,1,,1,2.933462138981770,Low
+SITE_0238,Neolithic dwellings,1,5,1,1,7,,9,4.592599616434840,Moderate
+SITE_0239,Bereket Mound,1,5,1,1,1,1,9,3.532743006117818,Low
+SITE_0240,Roman mineral baths,1,3,1,1,3,,1,1.916215015126346,Very Low
+SITE_0241,Fortress Zemlen,1,7,1,9,1,3,1,5.290171398603068,Moderate
+SITE_0242,Cheir maj Kaleto,1,9,5,9,3,3,1,6.248210055933721,High
+SITE_0243,Hisara Fortress,1,9,3,9,5,,1,6.766541425750199,High
+SITE_0244,Monastery of St. Athanasius the Great,1,9,5,9,3,,3,6.934111395497506,High
+SITE_0245,Kaleto Fortress Bolyarovo,1,1,1,9,3,1,1,3.598637739766253,Low
+SITE_0246,Ancient Kabile,1,3,5,7,3,1,1,3.721174413086020,Low
+SITE_0247,Roman residence,1,1,1,9,1,5,1,3.703223611354913,Low
+SITE_0248,Malkoto Kale Fortress,1,1,1,9,5,1,1,3.846427805192019,Low
+SITE_0249,Dabilin Fortress,1,3,7,7,1,,1,3.779510871244258,Low
+SITE_0250,Zaychi Vrah,3,3,3,7,7,5,1,5.362049483997320,Moderate

@@ -1,0 +1,25 @@
+THRACE AHP MONTE CARLO UNCERTAINTY ANALYSIS
+============================================
+
+Updated: 2026-08-23
+Iterations per cluster: 1000
+Weight perturbation sequence: existing fixed-seed ±10% uniform multiplicative sequence
+Random seed represented by iteration weights: 20260813
+Intentional N/A: excluded site-by-site; remaining weights renormalized
+Baseline validation field: WLC_RISK2
+Baseline validation tolerance: 1e-05
+Baseline validation mismatches: 0 of 250
+
+Cluster 1: 178 sites
+Cluster 2: 41 sites
+Cluster 3: 31 sites
+
+Outputs:
+  00_Data_Quality.csv
+  01_Baseline_Weights.csv
+  01A_Baseline_Validation.csv
+  02_MC_Iteration_Weights.csv
+  03_MC_Site_Summary.csv
+  04_MC_Cluster_Summary.csv
+  05_MC_Convergence.csv
+  06_Top_20_Uncertain_Sites.csv

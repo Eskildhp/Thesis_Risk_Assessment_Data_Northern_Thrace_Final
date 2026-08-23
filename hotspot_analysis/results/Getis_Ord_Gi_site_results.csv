@@ -1,0 +1,251 @@
+Site_ID,Site,WLC_RISK,GiZScore,GiPValue,NNeighbors,Gi_Bin,gi_class
+SITE_0001,Ahtopol Fortress,2.187943,-4.180649,0.000029067808,9,-3,Cold spot with 99% confidence
+SITE_0002,Kozareva Mogila,3.029679,-3.880236,0.000104355050,9,-3,Cold spot with 99% confidence
+SITE_0003,Poros Fortress,2.322317,-4.338056,0.000014374839,9,-3,Cold spot with 99% confidence
+SITE_0004,Cape Akra settlement,1.745817,-4.241784,0.000022175029,9,-3,Cold spot with 99% confidence
+SITE_0005,Deultum,2.423349,-4.216493,0.000024813104,9,-3,Cold spot with 99% confidence
+SITE_0006,Gornoto Gradishte,2.474148,-3.966242,0.000073014678,9,-3,Cold spot with 99% confidence
+SITE_0007,Antimovo Fortress,4.374992,-1.656963,0.097526981759,9,-1,Cold spot with 90% confidence
+SITE_0008,Poros Fortress wall,1.979069,-4.751845,0.000002015690,9,-3,Cold spot with 99% confidence
+SITE_0009,Dolmen Dragon house,2.761952,-3.924257,0.000086997864,9,-3,Cold spot with 99% confidence
+SITE_0010,Urdoviza Fortress,2.459670,-3.924257,0.000086997864,9,-3,Cold spot with 99% confidence
+SITE_0011,Gradishte Fortress II,3.518960,-0.946185,0.344054004669,9,0,Not statistically significant
+SITE_0012,Mishkova Niva,3.165558,-3.546921,0.000389761294,9,-3,Cold spot with 99% confidence
+SITE_0013,Necropolis City of the dead,3.349071,-3.546921,0.000389761294,9,-3,Cold spot with 99% confidence
+SITE_0014,Golyamoto Kale,2.423214,-3.671350,0.000241272584,9,-3,Cold spot with 99% confidence
+SITE_0015,Church of Christ Pantokrator,2.176432,-4.675308,0.000002935129,9,-3,Cold spot with 99% confidence
+SITE_0016,Church of St. John Aliturgetos,2.176432,-4.675308,0.000002935129,9,-3,Cold spot with 99% confidence
+SITE_0017,Church of St. John the Baptist,2.176432,-4.747701,0.000002057414,9,-3,Cold spot with 99% confidence
+SITE_0018,Church of St. Paraskeva,2.176432,-4.747701,0.000002057414,9,-3,Cold spot with 99% confidence
+SITE_0019,Church of St. Stefan,2.176432,-4.675308,0.000002935129,9,-3,Cold spot with 99% confidence
+SITE_0020,Church of St. Theodore,2.176432,-4.747701,0.000002057414,9,-3,Cold spot with 99% confidence
+SITE_0021,Church of St. Vlahara,2.176432,-4.747701,0.000002057414,9,-3,Cold spot with 99% confidence
+SITE_0022,Church of the Holy Archangels,2.176432,-4.747701,0.000002057414,9,-3,Cold spot with 99% confidence
+SITE_0023,Fortification of Mesembria Pontica,2.491634,-4.675308,0.000002935129,9,-3,Cold spot with 99% confidence
+SITE_0024,Foundations of Basilica Eliusa,2.176432,-4.747701,0.000002057414,9,-3,Cold spot with 99% confidence
+SITE_0025,Mesembria Terms,1.745817,-4.747701,0.000002057414,9,-3,Cold spot with 99% confidence
+SITE_0026,Mesembria West St. John,4.320872,-4.182786,0.000028795837,9,-3,Cold spot with 99% confidence
+SITE_0027,Stara Mitropolia,2.176432,-4.747701,0.000002057414,9,-3,Cold spot with 99% confidence
+SITE_0028,Anchialos Building,1.587712,-4.051531,0.000050883588,9,-3,Cold spot with 99% confidence
+SITE_0029,Anchialos Christian Church,1.916215,-4.051531,0.000050883588,9,-3,Cold spot with 99% confidence
+SITE_0030,Anchialos Church,2.288326,-4.051531,0.000050883588,9,-3,Cold spot with 99% confidence
+SITE_0031,Anchialos Fortification,1.916215,-4.051531,0.000050883588,9,-3,Cold spot with 99% confidence
+SITE_0032,Anchialos Necropolis,3.032546,-4.051531,0.000050883588,9,-3,Cold spot with 99% confidence
+SITE_0033,Pomorie tomb,2.351020,-4.051531,0.000050883588,9,-3,Cold spot with 99% confidence
+SITE_0034,Begliktash,2.761952,-3.924257,0.000086997864,9,-3,Cold spot with 99% confidence
+SITE_0035,Chengerska mound,2.853491,-3.924257,0.000086997864,9,-3,Cold spot with 99% confidence
+SITE_0036,Mound Stamopolu,2.853491,-3.924257,0.000086997864,9,-3,Cold spot with 99% confidence
+SITE_0037,Oriospotamo,1.745817,-3.667865,0.000244584613,9,-3,Cold spot with 99% confidence
+SITE_0038,Ranuli Fortress,2.331082,-3.924257,0.000086997864,9,-3,Cold spot with 99% confidence
+SITE_0039,Thera Fortress foundation,1.670824,-3.924257,0.000086997864,9,-3,Cold spot with 99% confidence
+SITE_0040,Rusokastro Fortress,2.918794,-3.804533,0.000142071958,9,-3,Cold spot with 99% confidence
+SITE_0041,Apollonia Pontica Cape Skamni,1.745817,-4.109143,0.000039712956,9,-3,Cold spot with 99% confidence
+SITE_0042,Apollonia Pontica Chapel,2.831781,-4.083328,0.000044395277,9,-3,Cold spot with 99% confidence
+SITE_0043,Fortification of St. John Monastery,3.037664,-4.083328,0.000044395277,9,-3,Cold spot with 99% confidence
+SITE_0044,Island St. Kirik and St. Julita,1.745817,-4.083328,0.000044395277,9,-3,Cold spot with 99% confidence
+SITE_0045,Mesarite,3.688401,-3.311400,0.000928304554,9,-3,Cold spot with 99% confidence
+SITE_0046,Monastery of St. John the Baptist,2.176432,-4.083328,0.000044395277,9,-3,Cold spot with 99% confidence
+SITE_0047,Necropolis of Apollonia I,3.304274,-2.989955,0.002790183121,9,-3,Cold spot with 99% confidence
+SITE_0048,Necropolis of Apollonia II,3.576002,-3.280304,0.001036952173,9,-3,Cold spot with 99% confidence
+SITE_0049,Necropolis of Apollonia III,3.576002,-3.280304,0.001036952173,9,-3,Cold spot with 99% confidence
+SITE_0050,Sozopolis Southern Complex,2.176432,-4.109143,0.000039712956,9,-3,Cold spot with 99% confidence
+SITE_0051,Sozopolis Southern Fortification,2.459670,-4.083328,0.000044395277,9,-3,Cold spot with 99% confidence
+SITE_0052,St. Marina Oikos,3.440611,-3.311400,0.000928304554,9,-3,Cold spot with 99% confidence
+SITE_0053,Via sacra,2.187943,-3.311400,0.000928304554,9,-3,Cold spot with 99% confidence
+SITE_0054,Aquae Calidae,2.832430,-4.339815,0.000014260243,9,-3,Cold spot with 99% confidence
+SITE_0055,Alexandrovo Tomb,6.131973,4.093318,0.000042524378,9,3,Hot spot with 99% confidence
+SITE_0056,Asara Shrine and Fortress,4.270406,2.328760,0.019871787958,9,2,Hot spot with 95% confidence
+SITE_0057,Dolmen Slavova Koriya,5.557307,2.250248,0.024433188530,9,2,Hot spot with 95% confidence
+SITE_0058,Dolmen Gaidarov dolap,5.805097,2.126483,0.033463046792,9,2,Hot spot with 95% confidence
+SITE_0059,Deaf Stones,7.530967,3.848943,0.000118628722,9,3,Hot spot with 99% confidence
+SITE_0060,Cromlech,6.288223,2.771655,0.005577204187,9,3,Hot spot with 99% confidence
+SITE_0061,Mound Dolno Botevo,6.732139,3.790379,0.000150417444,9,3,Hot spot with 99% confidence
+SITE_0062,Kovan Kaya,4.987546,2.547768,0.010841440433,9,2,Hot spot with 95% confidence
+SITE_0063,Kovan Kaya niches I,5.404898,2.547768,0.010841440433,9,2,Hot spot with 95% confidence
+SITE_0064,Gledka mound I,6.732139,4.059398,0.000049199449,9,3,Hot spot with 99% confidence
+SITE_0065,Gledka mound II,6.732139,4.059398,0.000049199449,9,3,Hot spot with 99% confidence
+SITE_0066,Furnadzhika,5.827131,3.433065,0.000596799525,9,3,Hot spot with 99% confidence
+SITE_0067,Dolmen Gorno Voyvodino,6.392809,3.869255,0.000109168625,9,3,Hot spot with 99% confidence
+SITE_0068,Dolmen Nachovi chairi,4.969595,2.126483,0.033463046792,9,2,Hot spot with 95% confidence
+SITE_0069,Rodostitsa Fortress,5.732100,3.452313,0.000555801605,9,3,Hot spot with 99% confidence
+SITE_0070,Villa Armira,4.774062,2.533891,0.011280381232,9,2,Hot spot with 95% confidence
+SITE_0071,Castra Rubra,5.290171,2.572026,0.010110539797,9,2,Hot spot with 95% confidence
+SITE_0072,Kapitan Petko Voyvoda mound I,6.144427,1.442010,0.149299635447,9,0,Not statistically significant
+SITE_0073,Sanctuary of Nymphs and Aphrodite,6.478049,4.227717,0.000023607416,9,3,Hot spot with 99% confidence
+SITE_0074,Fortress Klokotnitsa,5.701695,4.227717,0.000023607416,9,3,Hot spot with 99% confidence
+SITE_0075,Fortified ruling house,4.710077,1.442010,0.149299635447,9,0,Not statistically significant
+SITE_0076,Dolmen Mangura,5.529738,1.653181,0.098293934304,9,1,Hot spot with 90% confidence
+SITE_0077,Dolmen Starite Loza,5.529738,1.653181,0.098293934304,9,1,Hot spot with 90% confidence
+SITE_0078,Hambar Kaya II,6.363027,2.771655,0.005577204187,9,3,Hot spot with 99% confidence
+SITE_0079,Deaf Stones Church,6.514720,3.848943,0.000118628722,9,3,Hot spot with 99% confidence
+SITE_0080,Bukelon Fortress,5.622018,1.758532,0.078657113197,9,1,Hot spot with 90% confidence
+SITE_0081,Matochina Rock Church,5.948893,1.617353,0.105801997140,9,0,Not statistically significant
+SITE_0082,Merichleri mound I,7.272231,4.322234,0.000015445752,9,3,Hot spot with 99% confidence
+SITE_0083,Merichleri mound II,7.272231,4.322234,0.000015445752,9,3,Hot spot with 99% confidence
+SITE_0084,Merichleri mound III,7.272231,4.322234,0.000015445752,9,3,Hot spot with 99% confidence
+SITE_0085,Mezek Tumulus,6.308161,3.535748,0.000406622581,9,3,Hot spot with 99% confidence
+SITE_0086,Neutzikon Fortress,5.609564,3.535748,0.000406622581,9,3,Hot spot with 99% confidence
+SITE_0087,Mihalich Rock Church,4.883870,2.070473,0.038408080579,9,2,Hot spot with 95% confidence
+SITE_0088,Dolmen Bayamluka,5.204931,2.250520,0.024415939496,9,2,Hot spot with 95% confidence
+SITE_0089,Orlovo Town,5.361773,3.309208,0.000935602094,9,3,Hot spot with 99% confidence
+SITE_0090,Dolmen Kapakliyka II,5.381119,2.177164,0.029468319129,9,2,Hot spot with 95% confidence
+SITE_0091,Mehir Stone Chuchul,5.968831,2.378725,0.017372648064,9,2,Hot spot with 95% confidence
+SITE_0092,Ak Kaya,6.343973,2.746032,0.006032088528,9,3,Hot spot with 99% confidence
+SITE_0093,Kara inn,6.343973,2.746032,0.006032088528,9,3,Hot spot with 99% confidence
+SITE_0094,Dolmen Plevun,5.733495,2.481953,0.013066449319,9,2,Hot spot with 95% confidence
+SITE_0095,Kovan Kaya niches II,5.684674,2.547768,0.010841440433,9,2,Hot spot with 95% confidence
+SITE_0096,Efraim Fortress,6.576204,2.816787,0.004850669264,9,3,Hot spot with 99% confidence
+SITE_0097,Dolmen Bakalov kladenets,5.204931,1.351108,0.176660805700,9,0,Not statistically significant
+SITE_0098,Dolmen Byalata treva,5.876699,2.250248,0.024433188530,9,2,Hot spot with 95% confidence
+SITE_0099,Dolmen Kapakliyka I,5.452721,1.906640,0.056567189909,9,1,Hot spot with 90% confidence
+SITE_0100,Dolmen Kliftinova niva,5.700511,1.629161,0.103278976563,9,0,Not statistically significant
+SITE_0101,Dolmen Paskalevi kelemeta,5.452721,1.351108,0.176660805700,9,0,Not statistically significant
+SITE_0102,Dolmen Sakartsi,3.825902,1.351108,0.176660805700,9,0,Not statistically significant
+SITE_0103,Burdenis Fortress,5.721766,2.937670,0.003306889004,9,3,Hot spot with 99% confidence
+SITE_0104,Svilengrad mound necropolis,6.688821,3.312234,0.000925542405,9,3,Hot spot with 99% confidence
+SITE_0105,Svirachi Golyamata Mogila,5.968239,2.533891,0.011280381232,9,2,Hot spot with 95% confidence
+SITE_0106,Paleokastro Fortress,4.666058,1.636536,0.101727426796,9,0,Not statistically significant
+SITE_0107,Paparimsko Kale,4.349162,1.629161,0.103278976563,9,0,Not statistically significant
+SITE_0108,Holy Trinity Monastery,6.053479,1.442010,0.149299635447,9,0,Not statistically significant
+SITE_0109,Orlovi Skali,5.112876,1.367825,0.171366909271,9,0,Not statistically significant
+SITE_0110,Dupchen Kamak,4.537541,1.178996,0.238399982424,9,0,Not statistically significant
+SITE_0111,Hambar Dere Necropolis,5.452129,1.862954,0.062468679741,9,1,Hot spot with 90% confidence
+SITE_0112,Chernichino mound,5.456438,2.260013,0.023820434276,9,2,Hot spot with 95% confidence
+SITE_0113,Patmos Fortress,4.333794,1.210198,0.226202841249,9,0,Not statistically significant
+SITE_0114,Duzhdovnitsa niches,5.063006,1.371543,0.170205849949,9,0,Not statistically significant
+SITE_0115,Perperikon,5.815369,1.790051,0.073445673432,9,1,Hot spot with 90% confidence
+SITE_0116,Church of St. John Prodomus,3.134374,1.175034,0.239981205692,9,0,Not statistically significant
+SITE_0117,Necropolis of St. John Prodomus,3.625008,1.175034,0.239981205692,9,0,Not statistically significant
+SITE_0118,Toplitsa,4.290936,2.987272,0.002814794783,9,3,Hot spot with 99% confidence
+SITE_0119,Moryantsi tomb,5.712965,2.530235,0.011398602407,9,2,Hot spot with 95% confidence
+SITE_0120,Sivri Kaya niches,7.132481,2.409788,0.015961774958,9,2,Hot spot with 95% confidence
+SITE_0121,Arkata,5.481237,2.547768,0.010841440433,9,2,Hot spot with 95% confidence
+SITE_0122,Gouk in cave,4.559105,2.547768,0.010841440433,9,2,Hot spot with 95% confidence
+SITE_0123,Pop Martinova Dypka,6.403369,2.547768,0.010841440433,9,2,Hot spot with 95% confidence
+SITE_0124,Ada Tepe,5.937663,2.111055,0.034767589820,9,2,Hot spot with 95% confidence
+SITE_0125,Redestyuk Fortress,3.576511,1.892580,0.058413766872,9,1,Hot spot with 90% confidence
+SITE_0126,Tatul,5.444676,2.432236,0.015005913532,9,2,Hot spot with 95% confidence
+SITE_0127,Ustra,5.537479,0.923855,0.355561825733,9,0,Not statistically significant
+SITE_0128,Vishegrad Fortress,5.509218,1.300376,0.193472244487,9,0,Not statistically significant
+SITE_0129,Hambar Kaya,6.030466,0.923855,0.355561825733,9,0,Not statistically significant
+SITE_0130,Asar Kaya niches,6.916798,1.802432,0.071477459360,9,1,Hot spot with 90% confidence
+SITE_0131,Mal Asar,6.030466,0.923855,0.355561825733,9,0,Not statistically significant
+SITE_0132,Sredna Arda Rock cut niches,5.988944,2.067482,0.038688729571,9,2,Hot spot with 95% confidence
+SITE_0133,Shan Kaya,5.328559,2.314554,0.020637325472,9,2,Hot spot with 95% confidence
+SITE_0134,Belovo Basilica,5.860170,1.746655,0.080697192271,9,1,Hot spot with 90% confidence
+SITE_0135,St. Spas Basilica,5.860170,1.746655,0.080697192271,9,1,Hot spot with 90% confidence
+SITE_0136,Roman bridge Bratsigovo,5.160820,1.035115,0.300615372982,9,0,Not statistically significant
+SITE_0137,Dzhenevra,5.160820,1.254372,0.209706669925,9,0,Not statistically significant
+SITE_0138,Pashino Bardo,5.160820,1.642632,0.100459153185,9,0,Not statistically significant
+SITE_0139,Tsepina,6.547759,1.484304,0.137728349707,9,0,Not statistically significant
+SITE_0140,Church of St. Dimitar,4.765243,1.074466,0.282613724475,9,0,Not statistically significant
+SITE_0141,Peristera Fortress,2.933462,1.031972,0.302085070161,9,0,Not statistically significant
+SITE_0142,Kulata Gradot,5.695841,1.484304,0.137728349707,9,0,Not statistically significant
+SITE_0143,The tower Kalinkata,5.695841,1.803254,0.071348267946,9,1,Hot spot with 90% confidence
+SITE_0144,Tatarsko Kale,4.090776,-1.240922,0.214634418279,9,0,Not statistically significant
+SITE_0145,Emporion Pistiros,3.772109,1.746655,0.080697192271,9,1,Hot spot with 90% confidence
+SITE_0146,Zhaba Mogila,3.793579,-1.436666,0.150812802138,9,0,Not statistically significant
+SITE_0147,Lyubnishko Kale,5.695841,0.745450,0.455999862803,9,0,Not statistically significant
+SITE_0148,Bona Mansio,3.527036,1.746655,0.080697192271,9,1,Hot spot with 90% confidence
+SITE_0149,Tell Yunatsite,5.709523,0.989328,0.322502771404,9,0,Not statistically significant
+SITE_0150,Anevo Kale,4.090776,-2.604643,0.009196989930,9,-3,Cold spot with 99% confidence
+SITE_0151,Asenova Fortress,6.190361,2.163010,0.030540398234,9,2,Hot spot with 95% confidence
+SITE_0152,Bachkovo Monastery,4.558205,2.163010,0.030540398234,9,2,Hot spot with 95% confidence
+SITE_0153,Church of St. George Metokha,4.695077,1.907879,0.056406919289,9,1,Hot spot with 90% confidence
+SITE_0154,Church of the Holy Virgin of Petrich,6.319627,2.163010,0.030540398234,9,2,Hot spot with 95% confidence
+SITE_0155,Stanimaka Fortress ruins,3.984051,1.907879,0.056406919289,9,1,Hot spot with 90% confidence
+SITE_0156,Golyama Dragoyna,6.783614,3.494726,0.000474548252,9,3,Hot spot with 99% confidence
+SITE_0157,Monastery of St. Cyril and St. Yulita,5.008253,1.806983,0.070764882955,9,1,Hot spot with 90% confidence
+SITE_0158,Diocletionopolis,1.988379,-2.810744,0.004942705272,9,-3,Cold spot with 99% confidence
+SITE_0159,Hisarya Basilica 1,2.661085,-2.810744,0.004942705272,9,-3,Cold spot with 99% confidence
+SITE_0160,Hisarya Basilica 3,2.661085,-2.810744,0.004942705272,9,-3,Cold spot with 99% confidence
+SITE_0161,Hisarya Basilica 8,2.661085,-2.810744,0.004942705272,9,-3,Cold spot with 99% confidence
+SITE_0162,Hisarya Fortress walls,2.288975,-2.810744,0.004942705272,9,-3,Cold spot with 99% confidence
+SITE_0163,Hisarya Roman Baths,1.988379,-2.810744,0.004942705272,9,-3,Cold spot with 99% confidence
+SITE_0164,Stone of Tsar Asen,4.319627,0.836003,0.403153140798,9,0,Not statistically significant
+SITE_0165,Monastery of Saints Cosmas and Damian,6.090610,1.806983,0.070764882955,9,1,Hot spot with 90% confidence
+SITE_0166,Maltepe,5.079086,0.855102,0.392494816844,9,0,Not statistically significant
+SITE_0167,Red Church,4.042553,1.334285,0.182110516214,9,0,Not statistically significant
+SITE_0168,Ancient Theatre of Philippopolis,3.545834,0.833547,0.404536335050,9,0,Not statistically significant
+SITE_0169,Domus Eirene,4.934111,1.028215,0.303848862674,9,0,Not statistically significant
+SITE_0170,East Gate Philippopolis,5.001299,0.580642,0.561482028540,9,0,Not statistically significant
+SITE_0171,Episcopal Great Basilica,5.239035,1.113679,0.265417033708,9,0,Not statistically significant
+SITE_0172,Hellenistic buildings,5.983256,1.028215,0.303848862674,9,0,Not statistically significant
+SITE_0173,Hisarya Kapia,5.001299,0.495178,0.620474820616,9,0,Not statistically significant
+SITE_0174,Inner Fortress wall of Philippopolis,3.631401,0.495178,0.620474820616,9,0,Not statistically significant
+SITE_0175,Minor Basilica,5.306222,0.934442,0.350075862555,9,0,Not statistically significant
+SITE_0176,Nebet Tepe,5.001299,0.495178,0.620474820616,9,0,Not statistically significant
+SITE_0177,Outer Fortress wall of Philippopolis,5.001299,0.580642,0.561482028540,9,0,Not statistically significant
+SITE_0178,Peristyle building and street intersection,4.934111,1.028215,0.303848862674,9,0,Not statistically significant
+SITE_0179,Philippopolis Roman Baths I,4.934111,0.802685,0.422157008898,9,0,Not statistically significant
+SITE_0180,Remains of Fortress wall of Philippopolis,4.934111,1.028215,0.303848862674,9,0,Not statistically significant
+SITE_0181,Roman Forum of Philippopolis,4.866924,1.028215,0.303848862674,9,0,Not statistically significant
+SITE_0182,Roman Stadium of Philippopolis,4.934111,0.464315,0.642421896668,9,0,Not statistically significant
+SITE_0183,Spas Bair hill,4.290936,1.526621,0.126855246522,9,0,Not statistically significant
+SITE_0184,Belintash,6.417065,2.616711,0.008878144819,9,3,Hot spot with 99% confidence
+SITE_0185,Chetinyova Mogila,5.683037,-2.810744,0.004942705272,9,-3,Cold spot with 99% confidence
+SITE_0186,Horizon mound,3.193413,-2.810744,0.004942705272,9,-3,Cold spot with 99% confidence
+SITE_0187,Royal tomb,4.465347,-2.810744,0.004942705272,9,-3,Cold spot with 99% confidence
+SITE_0188,Church of St. Nicholas,5.306222,1.043646,0.296649298467,9,0,Not statistically significant
+SITE_0189,Chintulovo mound,3.029679,-0.303932,0.761179784765,9,0,Not statistically significant
+SITE_0190,Nanchovata Mogila,3.267136,-0.959537,0.337288315924,9,0,Not statistically significant
+SITE_0191,Dyadovo settlement,3.577300,0.064761,0.948364500649,9,0,Not statistically significant
+SITE_0192,Kaloyanovo Mound I,3.865181,-0.807823,0.419192637089,9,0,Not statistically significant
+SITE_0193,Kaloyanovo Mound II,3.865181,-0.807823,0.419192637089,9,0,Not statistically significant
+SITE_0194,Kaloyanovo Mound III,4.041369,-0.807823,0.419192637089,9,0,Not statistically significant
+SITE_0195,Kaloyanovo Tumulus,4.041369,-0.807823,0.419192637089,9,0,Not statistically significant
+SITE_0196,Kamen mogila,5.288395,-0.807823,0.419192637089,9,0,Not statistically significant
+SITE_0197,Kota 255,4.106672,0.464433,0.642337905871,9,0,Not statistically significant
+SITE_0198,Prehistoric Wide Mound,4.968411,0.434962,0.663589960517,9,0,Not statistically significant
+SITE_0199,Roman Karanovo mound,4.452893,0.464433,0.642337905871,9,0,Not statistically significant
+SITE_0200,Tell Karanovo,4.421904,0.434962,0.663589960517,9,0,Not statistically significant
+SITE_0201,Boz Bair,4.616627,-0.231903,0.816613388438,9,0,Not statistically significant
+SITE_0202,Boz Bair mound I,4.969003,-0.231903,0.816613388438,9,0,Not statistically significant
+SITE_0203,Boz Bair mound II,5.216793,-0.231903,0.816613388438,9,0,Not statistically significant
+SITE_0204,Tuida Fortress,2.859646,-0.966641,0.333723465798,9,0,Not statistically significant
+SITE_0205,Sokol Himitliyata,3.781125,0.360192,0.718703225255,9,0,Not statistically significant
+SITE_0206,Staro Selo Mogila,5.392981,-0.084733,0.932473882852,9,0,Not statistically significant
+SITE_0207,Tvarditsa Fortress,5.345107,-0.052216,0.958356284490,9,0,Not statistically significant
+SITE_0208,Gela Basilica,6.252736,1.248341,0.211906190293,9,0,Not statistically significant
+SITE_0209,Gradishte Fortress,5.629054,1.248341,0.211906190293,9,0,Not statistically significant
+SITE_0210,Momchilova Fortress,4.777136,2.336968,0.019440851566,9,2,Hot spot with 95% confidence
+SITE_0211,Kaleto Fortress Koshnitsa,4.625798,1.237330,0.215964755581,9,0,Not statistically significant
+SITE_0212,Uleya Cave,4.415955,1.237330,0.215964755581,9,0,Not statistically significant
+SITE_0213,St. Ilia Fortress,4.777136,1.336463,0.181397910172,9,0,Not statistically significant
+SITE_0214,Yagodinska Cave,3.984587,1.336463,0.181397910172,9,0,Not statistically significant
+SITE_0215,Tyovnata dupka,5.640816,2.036000,0.041750377868,9,2,Hot spot with 95% confidence
+SITE_0216,Bratya Daskalovi mound,5.610496,1.488271,0.136679537682,9,0,Not statistically significant
+SITE_0217,Momina Mogila,5.804505,2.483217,0.013020172416,9,2,Hot spot with 95% confidence
+SITE_0218,Buzovo Kale,4.166445,-1.672488,0.094428190480,9,-1,Cold spot with 90% confidence
+SITE_0219,Thracian domed tomb,3.823984,-1.672488,0.094428190480,9,-1,Cold spot with 90% confidence
+SITE_0220,Pizus Fortress,4.702459,4.052269,0.000050723216,9,3,Hot spot with 99% confidence
+SITE_0221,Tomb of Kazanlak,3.731845,-1.672488,0.094428190480,9,-1,Cold spot with 90% confidence
+SITE_0222,Kran Fortress,4.638659,-1.752786,0.079638782038,9,-1,Cold spot with 90% confidence
+SITE_0223,Kesteleva Mogila,3.101281,-1.672488,0.094428190480,9,-1,Cold spot with 90% confidence
+SITE_0224,Malak Dol mound,5.380527,1.488271,0.136679537682,9,0,Not statistically significant
+SITE_0225,Karasura,4.526272,3.081442,0.002060008545,9,3,Hot spot with 99% confidence
+SITE_0226,Tomb of Sashnova,2.958077,-2.439389,0.014712130468,9,-2,Cold spot with 95% confidence
+SITE_0227,Golyama Arsenalka tomb,2.605701,-2.439389,0.014712130468,9,-2,Cold spot with 95% confidence
+SITE_0228,Mezideva Fortress,4.090776,-1.752786,0.079638782038,9,-1,Cold spot with 90% confidence
+SITE_0229,Ostrusha tomb,3.182194,-1.752786,0.079638782038,9,-1,Cold spot with 90% confidence
+SITE_0230,Sarafova Mogila,2.853491,-1.752786,0.079638782038,9,-1,Cold spot with 90% confidence
+SITE_0231,Tomb of Helvetia,3.032546,-2.179237,0.029314032579,9,-2,Cold spot with 95% confidence
+SITE_0232,Tomb of Malka Kosmatka,3.205867,-2.179237,0.029314032579,9,-2,Cold spot with 95% confidence
+SITE_0233,Tomb of Seuthes III,3.205867,-2.439389,0.014712130468,9,-2,Cold spot with 95% confidence
+SITE_0234,Tomb of Shushmanets,5.029656,-1.712320,0.086837711172,9,-1,Cold spot with 90% confidence
+SITE_0235,Tomb of Svetitzata,2.958077,-1.752786,0.079638782038,9,-1,Cold spot with 90% confidence
+SITE_0236,Tomb of The Griffins,3.029679,-2.439389,0.014712130468,9,-2,Cold spot with 95% confidence
+SITE_0237,Augusta Traiana Vereia,2.933462,-1.258801,0.208102116676,9,0,Not statistically significant
+SITE_0238,Neolithic dwellings,4.592600,-1.461918,0.143763754489,9,0,Not statistically significant
+SITE_0239,Bereket Mound,3.532743,-1.177512,0.238991228942,9,0,Not statistically significant
+SITE_0240,Roman mineral baths,1.916215,-1.723454,0.084806512261,9,-1,Cold spot with 90% confidence
+SITE_0241,Fortress Zemlen,5.290171,-0.509544,0.610370657780,9,0,Not statistically significant
+SITE_0242,Cheir maj Kaleto,6.248210,4.322234,0.000015445752,9,3,Hot spot with 99% confidence
+SITE_0243,Hisara Fortress,6.766541,4.052269,0.000050723216,9,3,Hot spot with 99% confidence
+SITE_0244,Monastery of St. Athanasius the Great,6.934111,4.052269,0.000050723216,9,3,Hot spot with 99% confidence
+SITE_0245,Kaleto Fortress Bolyarovo,3.598638,0.460274,0.645319725026,9,0,Not statistically significant
+SITE_0246,Ancient Kabile,3.721174,-0.690143,0.490103955694,9,0,Not statistically significant
+SITE_0247,Roman residence,3.703224,0.250401,0.802277214516,9,0,Not statistically significant
+SITE_0248,Malkoto Kale Fortress,3.846428,0.510252,0.609874998548,9,0,Not statistically significant
+SITE_0249,Dabilin Fortress,3.779511,-0.596554,0.550805362420,9,0,Not statistically significant
+SITE_0250,Zaychi Vrah,5.362049,-0.690143,0.490103955694,9,0,Not statistically significant

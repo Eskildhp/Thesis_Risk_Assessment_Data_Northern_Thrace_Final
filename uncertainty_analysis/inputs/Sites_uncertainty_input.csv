@@ -1,0 +1,251 @@
+﻿Site_ID,Site,Cluster_3,SEIS_SCR,FWI_SCR,FLOOD_SCR,RUSLE_SCR,ELSUS_SCR,ASSET_SCR,Rusle_MTH,ELSUS_MTH,Material_general,WLC_RISK2
+SITE_0001,Ahtopol Fortress,1,1,3,1,,5,1,Coastal excl.,Near≤400m,Mortared stone masonry,2.187943
+SITE_0002,Kozareva Mogila,1,1,3,1,3,3,7,Direct,Direct,Earthwork (earthen burial mound),3.029679
+SITE_0003,Poros Fortress,1,1,3,5,,5,1,Coastal excl.,Near≤400m,Mortared stone masonry,2.322317
+SITE_0004,Cape Akra settlement,1,1,3,1,,,1,Coastal excl.,NoData>400m,Mortared stone masonry,1.745817
+SITE_0005,Deultum,1,1,5,5,,1,1,Urban excl.,Direct,Mortared stone masonry,2.423349
+SITE_0006,Gornoto Gradishte,1,1,5,5,3,1,1,Direct,Direct,Mortared stone masonry,2.474148
+SITE_0007,Antimovo Fortress,1,3,7,1,7,5,1,Direct,Direct,Mortared stone masonry,4.374992
+SITE_0008,Poros Fortress wall,1,1,3,7,,,1,Coastal excl.,NoData>400m,Mortared stone masonry,1.979069
+SITE_0009,Dolmen Dragon house,1,1,3,1,1,5,5,Direct,Direct,Dry stone masonry,2.761952
+SITE_0010,Urdoviza Fortress,1,1,3,1,,7,1,Urban excl.,Direct,Mortared stone masonry,2.459670
+SITE_0011,Gradishte Fortress II,1,3,3,1,5,9,1,Direct,Direct,Mortared stone masonry,3.518960
+SITE_0012,Mishkova Niva,2,1,3,1,1,5,3,Direct,Near≤400m,Mortared mixed masonry (stone + brick),3.165558
+SITE_0013,Necropolis City of the dead,1,1,3,1,1,7,7,Direct,Direct,Earthwork (earthen burial mound),3.349071
+SITE_0014,Golyamoto Kale,1,1,5,1,1,3,1,Direct,Direct,Mortared stone masonry,2.423214
+SITE_0015,Church of Christ Pantokrator,1,1,3,1,,,3,Urban excl.,NoData>400m,Mortared mixed masonry (stone + brick),2.176432
+SITE_0016,Church of St. John Aliturgetos,1,1,3,1,,,3,Urban excl.,NoData>400m,Mortared mixed masonry (stone + brick),2.176432
+SITE_0017,Church of St. John the Baptist,1,1,3,1,,,3,Urban excl.,NoData>400m,Mortared mixed masonry (stone + brick),2.176432
+SITE_0018,Church of St. Paraskeva,1,1,3,1,,,3,Urban excl.,NoData>400m,Mortared mixed masonry (stone + brick),2.176432
+SITE_0019,Church of St. Stefan,1,1,3,1,,,3,Urban excl.,NoData>400m,Mortared mixed masonry (stone + brick),2.176432
+SITE_0020,Church of St. Theodore,1,1,3,1,,,3,Urban excl.,NoData>400m,Mortared mixed masonry (stone + brick),2.176432
+SITE_0021,Church of St. Vlahara,1,1,3,1,,,3,Urban excl.,NoData>400m,Mortared mixed masonry (stone + brick),2.176432
+SITE_0022,Church of the Holy Archangels,1,1,3,1,,,3,Urban excl.,NoData>400m,Mortared mixed masonry (stone + brick),2.176432
+SITE_0023,Fortification of Mesembria Pontica,1,3,3,1,,,1,Urban excl.,NoData>400m,Mortared stone masonry,2.491634
+SITE_0024,Foundations of Basilica Eliusa,1,1,3,1,,,3,Urban excl.,NoData>400m,Mortared mixed masonry (stone + brick),2.176432
+SITE_0025,Mesembria Terms,1,1,3,1,,,1,Urban excl.,NoData>400m,Mortared stone masonry,1.745817
+SITE_0026,Mesembria West St. John,1,3,3,1,,5,9,Urban excl.,Near≤400m,Earthwork / earthen architecture,4.320872
+SITE_0027,Stara Mitropolia,1,1,3,1,,,3,Urban excl.,NoData>400m,Mortared mixed masonry (stone + brick),2.176432
+SITE_0028,Anchialos Building,1,1,3,1,1,1,1,Direct,Direct,Mortared stone masonry,1.587712
+SITE_0029,Anchialos Christian Church,1,1,3,1,,3,1,Urban excl.,Near≤400m,Mortared stone masonry,1.916215
+SITE_0030,Anchialos Church,1,1,3,1,,3,3,Urban excl.,Direct,Mortared mixed masonry (stone + brick),2.288326
+SITE_0031,Anchialos Fortification,1,1,3,1,,3,1,Urban excl.,Direct,Mortared stone masonry,1.916215
+SITE_0032,Anchialos Necropolis,1,1,3,1,,3,7,Urban excl.,Near≤400m,Burial deposits / unspecified construction,3.032546
+SITE_0033,Pomorie tomb,1,1,3,1,3,3,3,Direct,Near≤400m,Mortared mixed masonry (stone + brick),2.351020
+SITE_0034,Begliktash,1,1,3,1,1,5,5,Direct,Direct,Rock-cut / bedrock construction,2.761952
+SITE_0035,Chengerska mound,1,1,3,1,1,3,7,Direct,Direct,Earthwork (earthen burial mound),2.853491
+SITE_0036,Mound Stamopolu,1,1,3,1,1,3,7,Direct,Direct,Earthwork (earthen burial mound),2.853491
+SITE_0037,Oriospotamo,1,1,3,1,,,1,Coastal excl.,NoData>400m,Mortared stone masonry,1.745817
+SITE_0038,Ranuli Fortress,1,1,3,1,1,7,1,Direct,Direct,Mortared stone masonry,2.331082
+SITE_0039,Thera Fortress foundation,1,1,3,1,1,,1,Direct,NoData>400m,Mortared stone masonry,1.670824
+SITE_0040,Rusokastro Fortress,1,1,5,1,1,7,1,Direct,Direct,Mortared stone masonry,2.918794
+SITE_0041,Apollonia Pontica Cape Skamni,1,1,3,1,,,1,Coastal excl.,NoData>400m,Mortared stone masonry,1.745817
+SITE_0042,Apollonia Pontica Chapel,1,1,3,1,,7,3,Urban excl.,Near≤400m,Mortared mixed masonry (stone + brick),2.831781
+SITE_0043,Fortification of St. John Monastery,1,1,3,1,,,7,Coastal excl.,NoData>400m,Earthwork / early stone construction,3.037664
+SITE_0044,Island St. Kirik and St. Julita,1,1,3,1,,,1,Urban excl.,NoData>400m,Mortared stone masonry,1.745817
+SITE_0045,Mesarite,1,1,3,1,1,7,9,Direct,Direct,Earthwork / earthen architecture,3.688401
+SITE_0046,Monastery of St. John the Baptist,1,1,3,1,,,3,Coastal excl.,NoData>400m,Mortared mixed masonry (stone + brick),2.176432
+SITE_0047,Necropolis of Apollonia I,1,1,3,1,,5,7,Urban excl.,Direct,Earthwork (earthen burial mound),3.304274
+SITE_0048,Necropolis of Apollonia II,1,1,3,1,,7,7,Urban excl.,Direct,Earthwork (earthen burial mound),3.576002
+SITE_0049,Necropolis of Apollonia III,1,1,3,1,,7,7,Urban excl.,Direct,Earthwork (earthen burial mound),3.576002
+SITE_0050,Sozopolis Southern Complex,1,1,3,1,,,3,Urban excl.,NoData>400m,Mortared mixed masonry (stone + brick),2.176432
+SITE_0051,Sozopolis Southern Fortification,1,1,3,1,,7,1,Urban excl.,Near≤400m,Mortared stone masonry,2.459670
+SITE_0052,St. Marina Oikos,1,1,3,1,1,5,9,Direct,Direct,Earthwork / earthen architecture,3.440611
+SITE_0053,Via sacra,1,1,3,1,,5,1,Urban excl.,Direct,Mortared stone masonry,2.187943
+SITE_0054,Aquae Calidae,1,3,3,1,,5,1,Urban excl.,Direct,Mortared stone masonry,2.832430
+SITE_0055,Alexandrovo Tomb,1,7,9,1,1,1,7,Direct,Direct,Earthwork (earthen burial mound),6.131973
+SITE_0056,Asara Shrine and Fortress,1,7,3,1,3,7,1,Direct,Direct,Mortared stone masonry,4.270406
+SITE_0057,Dolmen Slavova Koriya,1,7,7,1,5,1,5,Direct,Direct,Dry stone masonry,5.557307
+SITE_0058,Dolmen Gaidarov dolap,1,7,7,1,5,3,5,Direct,Direct,Dry stone masonry,5.805097
+SITE_0059,Deaf Stones,2,7,9,1,1,9,5,Direct,Direct,Rock-cut / bedrock construction,7.530967
+SITE_0060,Cromlech,1,7,9,1,1,5,5,Direct,Direct,Rock-cut / bedrock construction,6.288223
+SITE_0061,Mound Dolno Botevo,1,7,9,1,5,3,7,Direct,Direct,Earthwork (earthen burial mound),6.732139
+SITE_0062,Kovan Kaya,1,3,9,5,1,3,5,Direct,Direct,Rock-cut / bedrock construction,4.987546
+SITE_0063,Kovan Kaya niches I,3,3,9,3,1,7,5,Direct,Direct,Rock-cut / bedrock construction,5.404898
+SITE_0064,Gledka mound I,1,7,9,1,5,3,7,Direct,Direct,Earthwork (earthen burial mound),6.732139
+SITE_0065,Gledka mound II,1,7,9,1,5,3,7,Direct,Direct,Earthwork (earthen burial mound),6.732139
+SITE_0066,Furnadzhika,2,7,9,1,1,5,5,Direct,Direct,Rock-cut / bedrock construction,5.827131
+SITE_0067,Dolmen Gorno Voyvodino,1,7,9,1,5,3,5,Direct,Direct,Dry stone masonry,6.392809
+SITE_0068,Dolmen Nachovi chairi,1,5,7,1,5,1,5,Direct,Direct,Dry stone masonry,4.969595
+SITE_0069,Rodostitsa Fortress,1,7,9,5,1,5,1,Direct,Direct,Mortared stone masonry,5.732100
+SITE_0070,Villa Armira,1,5,9,1,1,3,1,Direct,Direct,Mortared stone masonry,4.774062
+SITE_0071,Castra Rubra,1,7,9,1,3,1,1,Direct,Direct,Mortared stone masonry,5.290171
+SITE_0072,Kapitan Petko Voyvoda mound I,1,5,9,1,5,3,7,Direct,Direct,Earthwork (earthen burial mound),6.144427
+SITE_0073,Sanctuary of Nymphs and Aphrodite,1,9,9,1,7,3,1,Direct,Direct,Mortared stone masonry,6.478049
+SITE_0074,Fortress Klokotnitsa,1,9,9,1,1,1,1,Direct,Direct,Mortared stone masonry,5.701695
+SITE_0075,Fortified ruling house,1,5,9,7,1,1,1,Direct,Direct,Mortared stone masonry,4.710077
+SITE_0076,Dolmen Mangura,2,7,7,1,1,5,5,Direct,Direct,Dry stone masonry,5.529738
+SITE_0077,Dolmen Starite Loza,2,7,7,1,1,5,5,Direct,Direct,Dry stone masonry,5.529738
+SITE_0078,Hambar Kaya II,3,7,9,5,1,7,5,Direct,Direct,Rock-cut / bedrock construction,6.363027
+SITE_0079,Deaf Stones Church,2,7,9,1,1,7,3,Direct,Direct,Mortared mixed masonry (stone + brick),6.514720
+SITE_0080,Bukelon Fortress,1,5,9,1,5,7,1,Direct,Direct,Mortared stone masonry,5.622018
+SITE_0081,Matochina Rock Church,1,7,9,1,1,5,3,Direct,Direct,Mortared mixed masonry (stone + brick),5.948893
+SITE_0082,Merichleri mound I,1,9,9,1,,1,7,Other excl.,Direct,Earthwork (earthen burial mound),7.272231
+SITE_0083,Merichleri mound II,1,9,9,1,,1,7,Other excl.,Direct,Earthwork (earthen burial mound),7.272231
+SITE_0084,Merichleri mound III,1,9,9,1,,1,7,Other excl.,Direct,Earthwork (earthen burial mound),7.272231
+SITE_0085,Mezek Tumulus,1,7,9,1,3,1,7,Direct,Direct,Earthwork (earthen burial mound),6.308161
+SITE_0086,Neutzikon Fortress,1,7,9,1,1,5,1,Direct,Direct,Mortared stone masonry,5.609564
+SITE_0087,Mihalich Rock Church,3,7,9,1,7,3,3,Direct,Direct,Mortared mixed masonry (stone + brick),4.883870
+SITE_0088,Dolmen Bayamluka,1,7,7,1,1,1,5,Direct,Direct,Dry stone masonry,5.204931
+SITE_0089,Orlovo Town,1,7,9,1,1,3,1,Direct,Direct,Mortared stone masonry,5.361773
+SITE_0090,Dolmen Kapakliyka II,1,7,7,1,3,1,5,Direct,Direct,Dry stone masonry,5.381119
+SITE_0091,Mehir Stone Chuchul,1,7,9,1,3,1,5,Direct,Direct,Rock-cut / bedrock construction,5.968831
+SITE_0092,Ak Kaya,3,3,9,5,9,7,5,Direct,Direct,Rock-cut / bedrock construction,6.343973
+SITE_0093,Kara inn,3,3,9,5,9,7,5,Direct,Direct,Rock-cut / bedrock construction,6.343973
+SITE_0094,Dolmen Plevun,1,5,9,1,7,1,5,Direct,Direct,Dry stone masonry,5.733495
+SITE_0095,Kovan Kaya niches II,2,3,9,3,1,7,5,Direct,Direct,Rock-cut / bedrock construction,5.684674
+SITE_0096,Efraim Fortress,3,3,9,5,5,9,1,Direct,Direct,Mortared stone masonry,6.576204
+SITE_0097,Dolmen Bakalov kladenets,1,7,7,1,1,1,5,Direct,Direct,Dry stone masonry,5.204931
+SITE_0098,Dolmen Byalata treva,1,7,7,1,3,5,5,Direct,Direct,Dry stone masonry,5.876699
+SITE_0099,Dolmen Kapakliyka I,1,7,7,1,1,3,5,Direct,Direct,Dry stone masonry,5.452721
+SITE_0100,Dolmen Kliftinova niva,1,7,7,1,1,5,5,Direct,Direct,Dry stone masonry,5.700511
+SITE_0101,Dolmen Paskalevi kelemeta,1,7,7,1,1,3,5,Direct,Direct,Dry stone masonry,5.452721
+SITE_0102,Dolmen Sakartsi,2,7,7,1,1,1,5,Direct,Direct,Dry stone masonry,3.825902
+SITE_0103,Burdenis Fortress,1,7,9,7,3,3,1,Direct,Direct,Mortared stone masonry,5.721766
+SITE_0104,Svilengrad mound necropolis,1,7,9,3,1,5,7,Direct,Direct,Earthwork (earthen burial mound),6.688821
+SITE_0105,Svirachi Golyamata Mogila,1,5,9,1,3,3,7,Direct,Direct,Earthwork (earthen burial mound),5.968239
+SITE_0106,Paleokastro Fortress,2,5,7,1,1,5,1,Direct,Direct,Mortared stone masonry,4.666058
+SITE_0107,Paparimsko Kale,2,7,7,1,1,3,1,Direct,Direct,Mortared stone masonry,4.349162
+SITE_0108,Holy Trinity Monastery,1,7,9,1,5,3,3,Direct,Direct,Mortared mixed masonry (stone + brick),6.053479
+SITE_0109,Orlovi Skali,3,3,5,1,3,7,5,Direct,Direct,Rock-cut / bedrock construction,5.112876
+SITE_0110,Dupchen Kamak,1,3,5,1,5,7,5,Direct,Direct,Rock-cut / bedrock construction,4.537541
+SITE_0111,Hambar Dere Necropolis,1,3,9,1,1,5,7,Direct,Direct,Earthwork (earthen burial mound),5.452129
+SITE_0112,Chernichino mound,2,5,9,1,1,5,7,Direct,Direct,Earthwork (earthen burial mound),5.456438
+SITE_0113,Patmos Fortress,1,5,3,5,9,7,1,Direct,Near≤400m,Mortared stone masonry,4.333794
+SITE_0114,Duzhdovnitsa niches,3,5,3,1,9,5,5,Direct,Direct,Rock-cut / bedrock construction,5.063006
+SITE_0115,Perperikon,2,5,9,1,1,7,1,Direct,Direct,Mortared stone masonry,5.815369
+SITE_0116,Church of St. John Prodomus,1,3,3,7,,3,3,Urban excl.,Direct,Mortared mixed masonry (stone + brick),3.134374
+SITE_0117,Necropolis of St. John Prodomus,1,3,3,7,1,3,7,Direct,Direct,Burial deposits / unspecified construction,3.625008
+SITE_0118,Toplitsa,1,7,5,1,5,1,1,Direct,Direct,Mortared stone masonry,4.290936
+SITE_0119,Moryantsi tomb,1,3,9,1,5,7,5,Direct,Direct,Rock-cut / bedrock construction,5.712965
+SITE_0120,Sivri Kaya niches,3,7,1,1,9,9,5,Direct,Direct,Rock-cut / bedrock construction,7.132481
+SITE_0121,Arkata,3,3,9,5,1,7,5,Direct,Direct,Rock-cut / bedrock construction,5.481237
+SITE_0122,Gouk in cave,3,3,9,5,1,5,5,Direct,Direct,Rock-cut / bedrock construction,4.559105
+SITE_0123,Pop Martinova Dypka,3,3,9,5,1,9,5,Direct,Direct,Rock-cut / bedrock construction,6.403369
+SITE_0124,Ada Tepe,2,3,9,1,1,7,9,Direct,Direct,Earthwork / earthen architecture,5.937663
+SITE_0125,Redestyuk Fortress,2,3,9,1,1,3,1,Direct,Direct,Mortared stone masonry,3.576511
+SITE_0126,Tatul,2,3,9,1,1,7,3,Direct,Direct,Mortared mixed masonry (stone + brick),5.444676
+SITE_0127,Ustra,2,3,5,1,1,9,1,Direct,Direct,Mortared stone masonry,5.537479
+SITE_0128,Vishegrad Fortress,1,3,9,5,9,7,1,Direct,Direct,Mortared stone masonry,5.509218
+SITE_0129,Hambar Kaya,2,3,5,1,1,9,7,Direct,Direct,Earthwork (earthen burial mound),6.030466
+SITE_0130,Asar Kaya niches,3,7,3,1,5,9,5,Direct,Direct,Rock-cut / bedrock construction,6.916798
+SITE_0131,Mal Asar,2,3,5,1,1,9,7,Direct,Direct,Earthwork / early stone construction,6.030466
+SITE_0132,Sredna Arda Rock cut niches,3,3,9,7,5,7,5,Direct,Near≤400m,Rock-cut / bedrock construction,5.988944
+SITE_0133,Shan Kaya,3,3,9,1,1,7,5,Direct,Direct,Rock-cut / bedrock construction,5.328559
+SITE_0134,Belovo Basilica,2,9,1,1,1,7,3,Direct,Direct,Mortared mixed masonry (stone + brick),5.860170
+SITE_0135,St. Spas Basilica,2,9,1,1,1,7,3,Direct,Direct,Mortared mixed masonry (stone + brick),5.860170
+SITE_0136,Roman bridge Bratsigovo,2,7,1,1,1,7,1,Direct,Direct,Mortared stone masonry,5.160820
+SITE_0137,Dzhenevra,2,7,1,1,1,7,1,Direct,Direct,Mortared stone masonry,5.160820
+SITE_0138,Pashino Bardo,2,7,1,1,1,7,1,Direct,Direct,Mortared stone masonry,5.160820
+SITE_0139,Tsepina,2,9,1,1,1,9,1,Direct,Direct,Mortared stone masonry,6.547759
+SITE_0140,Church of St. Dimitar,1,9,1,1,,7,3,Urban excl.,Direct,Mortared mixed masonry (stone + brick),4.765243
+SITE_0141,Peristera Fortress,1,7,1,1,,1,1,Urban excl.,Direct,Mortared stone masonry,2.933462
+SITE_0142,Kulata Gradot,2,9,1,1,1,7,1,Direct,Direct,Mortared stone masonry,5.695841
+SITE_0143,The tower Kalinkata,2,9,1,1,1,7,1,Direct,Direct,Mortared stone masonry,5.695841
+SITE_0144,Tatarsko Kale,2,3,1,1,1,7,1,Direct,Direct,Mortared stone masonry,4.090776
+SITE_0145,Emporion Pistiros,1,9,1,9,3,1,1,Direct,Direct,Mortared stone masonry,3.772109
+SITE_0146,Zhaba Mogila,1,5,1,1,5,3,7,Direct,Direct,Earthwork (earthen burial mound),3.793579
+SITE_0147,Lyubnishko Kale,2,9,1,1,1,7,1,Direct,Direct,Mortared stone masonry,5.695841
+SITE_0148,Bona Mansio,1,9,1,1,3,1,1,Direct,Direct,Mortared stone masonry,3.527036
+SITE_0149,Tell Yunatsite,1,9,3,3,5,1,9,Direct,Direct,Earthwork / earthen architecture,5.709523
+SITE_0150,Anevo Kale,2,3,1,1,1,7,1,Direct,Direct,Mortared stone masonry,4.090776
+SITE_0151,Asenova Fortress,3,9,1,7,5,7,1,Direct,Direct,Mortared stone masonry,6.190361
+SITE_0152,Bachkovo Monastery,1,7,1,7,7,7,3,Direct,Direct,Mortared mixed masonry (stone + brick),4.558205
+SITE_0153,Church of St. George Metokha,1,9,1,7,,5,3,Urban excl.,Direct,Mortared mixed masonry (stone + brick),4.695077
+SITE_0154,Church of the Holy Virgin of Petrich,3,9,1,7,5,7,3,Direct,Direct,Mortared mixed masonry (stone + brick),6.319627
+SITE_0155,Stanimaka Fortress ruins,1,9,1,5,,3,1,Urban excl.,Direct,Mortared stone masonry,3.984051
+SITE_0156,Golyama Dragoyna,2,9,5,1,1,7,7,Direct,Direct,Earthwork / early stone construction,6.783614
+SITE_0157,Monastery of St. Cyril and St. Yulita,2,9,1,1,1,5,3,Direct,Direct,Mortared mixed masonry (stone + brick),5.008253
+SITE_0158,Diocletionopolis,3,5,1,1,,1,1,Urban excl.,Direct,Mortared stone masonry,1.988379
+SITE_0159,Hisarya Basilica 1,1,5,1,1,,1,3,Urban excl.,Direct,Mortared mixed masonry (stone + brick),2.661085
+SITE_0160,Hisarya Basilica 3,1,5,1,1,,1,3,Urban excl.,Direct,Mortared mixed masonry (stone + brick),2.661085
+SITE_0161,Hisarya Basilica 8,1,5,1,1,,1,3,Urban excl.,Direct,Mortared mixed masonry (stone + brick),2.661085
+SITE_0162,Hisarya Fortress walls,1,5,1,1,,1,1,Urban excl.,Direct,Mortared stone masonry,2.288975
+SITE_0163,Hisarya Roman Baths,3,5,1,1,,1,1,Urban excl.,Direct,Mortared stone masonry,1.988379
+SITE_0164,Stone of Tsar Asen,3,7,1,5,1,5,1,Direct,Direct,Mortared stone masonry,4.319627
+SITE_0165,Monastery of Saints Cosmas and Damian,3,9,1,1,5,7,3,Direct,Direct,Mortared mixed masonry (stone + brick),6.090610
+SITE_0166,Maltepe,1,9,3,5,1,1,7,Direct,Direct,Earthwork (earthen burial mound),5.079086
+SITE_0167,Red Church,1,9,1,1,5,1,3,Direct,Direct,Mortared mixed masonry (stone + brick),4.042553
+SITE_0168,Ancient Theatre of Philippopolis,3,9,5,3,,1,1,Urban excl.,Direct,Mortared stone masonry,3.545834
+SITE_0169,Domus Eirene,1,9,5,3,,1,1,Urban excl.,Direct,Mortared stone masonry,4.934111
+SITE_0170,East Gate Philippopolis,1,9,5,5,,1,1,Urban excl.,Direct,Mortared stone masonry,5.001299
+SITE_0171,Episcopal Great Basilica,1,9,5,1,,1,3,Urban excl.,Direct,Mortared mixed masonry (stone + brick),5.239035
+SITE_0172,Hellenistic buildings,1,9,5,1,,1,7,Urban excl.,Direct,Earthwork / early stone construction,5.983256
+SITE_0173,Hisarya Kapia,1,9,5,5,,1,1,Urban excl.,Direct,Mortared stone masonry,5.001299
+SITE_0174,Inner Fortress wall of Philippopolis,3,9,5,5,,1,1,Urban excl.,Direct,Mortared stone masonry,3.631401
+SITE_0175,Minor Basilica,1,9,5,3,,1,3,Urban excl.,Direct,Mortared mixed masonry (stone + brick),5.306222
+SITE_0176,Nebet Tepe,1,9,5,5,,1,1,Urban excl.,Direct,Mortared stone masonry,5.001299
+SITE_0177,Outer Fortress wall of Philippopolis,1,9,5,5,,1,1,Urban excl.,Direct,Mortared stone masonry,5.001299
+SITE_0178,Peristyle building and street intersection,1,9,5,3,,1,1,Urban excl.,Direct,Mortared stone masonry,4.934111
+SITE_0179,Philippopolis Roman Baths I,1,9,5,3,,1,1,Urban excl.,Direct,Mortared stone masonry,4.934111
+SITE_0180,Remains of Fortress wall of Philippopolis,1,9,5,3,,1,1,Urban excl.,Direct,Mortared stone masonry,4.934111
+SITE_0181,Roman Forum of Philippopolis,1,9,5,1,,1,1,Urban excl.,Direct,Mortared stone masonry,4.866924
+SITE_0182,Roman Stadium of Philippopolis,1,9,5,3,,1,1,Urban excl.,Direct,Mortared stone masonry,4.934111
+SITE_0183,Spas Bair hill,1,9,3,1,5,1,1,Direct,Direct,Mortared stone masonry,4.290936
+SITE_0184,Belintash,2,7,1,1,3,9,5,Direct,Direct,Rock-cut / bedrock construction,6.417065
+SITE_0185,Chetinyova Mogila,3,5,1,1,7,7,7,Direct,Direct,Earthwork / early stone construction,5.683037
+SITE_0186,Horizon mound,1,5,1,1,1,1,7,Direct,Direct,Earthwork (earthen burial mound),3.193413
+SITE_0187,Royal tomb,1,5,1,1,7,7,7,Direct,Direct,Earthwork (earthen burial mound),4.465347
+SITE_0188,Church of St. Nicholas,1,9,5,3,,1,3,Urban excl.,Direct,Mortared mixed masonry (stone + brick),5.306222
+SITE_0189,Chintulovo mound,1,3,1,1,3,3,7,Direct,Direct,Earthwork (earthen burial mound),3.029679
+SITE_0190,Nanchovata Mogila,1,3,1,3,5,3,7,Direct,Direct,Earthwork (earthen burial mound),3.267136
+SITE_0191,Dyadovo settlement,1,3,5,1,,3,3,Urban excl.,Direct,Mortared mixed masonry (stone + brick),3.577300
+SITE_0192,Kaloyanovo Mound I,1,3,3,1,3,5,7,Direct,Direct,Earthwork (earthen burial mound),3.865181
+SITE_0193,Kaloyanovo Mound II,1,3,3,1,3,5,7,Direct,Direct,Earthwork (earthen burial mound),3.865181
+SITE_0194,Kaloyanovo Mound III,1,3,3,1,5,5,7,Direct,Direct,Earthwork (earthen burial mound),4.041369
+SITE_0195,Kaloyanovo Tumulus,1,3,3,1,5,5,7,Direct,Direct,Earthwork (earthen burial mound),4.041369
+SITE_0196,Kamen mogila,1,3,7,1,3,7,7,Direct,Direct,Earthwork (earthen burial mound),5.288395
+SITE_0197,Kota 255,1,3,5,1,5,9,1,Direct,Direct,Mortared stone masonry,4.106672
+SITE_0198,Prehistoric Wide Mound,1,3,5,1,5,5,9,Direct,Direct,Earthwork / earthen architecture,4.968411
+SITE_0199,Roman Karanovo mound,1,3,5,1,3,5,7,Direct,Direct,Earthwork (earthen burial mound),4.452893
+SITE_0200,Tell Karanovo,1,3,5,1,,1,9,Urban excl.,Direct,Earthwork / earthen architecture,4.421904
+SITE_0201,Boz Bair,1,3,7,1,1,3,7,Direct,Direct,Earthwork / early stone construction,4.616627
+SITE_0202,Boz Bair mound I,1,3,7,1,5,3,7,Direct,Direct,Earthwork (earthen burial mound),4.969003
+SITE_0203,Boz Bair mound II,1,3,7,1,5,5,7,Direct,Direct,Earthwork (earthen burial mound),5.216793
+SITE_0204,Tuida Fortress,1,3,1,1,7,7,1,Direct,Direct,Mortared stone masonry,2.859646
+SITE_0205,Sokol Himitliyata,1,3,5,1,1,1,7,Direct,Direct,Earthwork (earthen burial mound),3.781125
+SITE_0206,Staro Selo Mogila,1,3,7,1,7,5,7,Direct,Direct,Earthwork (earthen burial mound),5.392981
+SITE_0207,Tvarditsa Fortress,3,3,1,1,3,9,1,Direct,Direct,Mortared stone masonry,5.345107
+SITE_0208,Gela Basilica,2,7,1,1,3,9,3,Direct,Direct,Mortared mixed masonry (stone + brick),6.252736
+SITE_0209,Gradishte Fortress,2,5,1,1,5,9,1,Direct,Direct,Mortared stone masonry,5.629054
+SITE_0210,Momchilova Fortress,2,5,1,1,5,7,1,Direct,Direct,Mortared stone masonry,4.777136
+SITE_0211,Kaleto Fortress Koshnitsa,2,5,1,1,1,7,1,Direct,Direct,Mortared stone masonry,4.625798
+SITE_0212,Uleya Cave,3,5,1,1,5,5,5,Direct,Direct,Rock-cut / bedrock construction,4.415955
+SITE_0213,St. Ilia Fortress,2,5,1,1,5,7,1,Direct,Direct,Mortared stone masonry,4.777136
+SITE_0214,Yagodinska Cave,3,5,1,1,1,5,5,Direct,Direct,Rock-cut / bedrock construction,3.984587
+SITE_0215,Tyovnata dupka,2,7,1,1,5,7,5,Direct,Direct,Rock-cut / bedrock construction,5.640816
+SITE_0216,Bratya Daskalovi mound,1,9,3,1,,3,7,Urban excl.,Direct,Earthwork (earthen burial mound),5.610496
+SITE_0217,Momina Mogila,1,9,3,1,5,5,7,Direct,Direct,Earthwork (earthen burial mound),5.804505
+SITE_0218,Buzovo Kale,2,3,1,3,1,7,1,Direct,Direct,Mortared stone masonry,4.166445
+SITE_0219,Thracian domed tomb,1,3,1,5,5,7,7,Direct,Direct,Earthwork (earthen burial mound),3.823984
+SITE_0220,Pizus Fortress,1,9,5,1,3,1,1,Direct,Direct,Mortared stone masonry,4.702459
+SITE_0221,Tomb of Kazanlak,2,3,1,1,1,5,7,Direct,Direct,Earthwork (earthen burial mound),3.731845
+SITE_0222,Kran Fortress,3,3,1,1,5,7,1,Direct,Direct,Mortared stone masonry,4.638659
+SITE_0223,Kesteleva Mogila,1,3,1,1,1,5,7,Direct,Direct,Earthwork (earthen burial mound),3.101281
+SITE_0224,Malak Dol mound,1,9,3,1,3,3,7,Direct,Direct,Earthwork (earthen burial mound),5.380527
+SITE_0225,Karasura,1,9,5,1,1,1,1,Direct,Direct,Mortared stone masonry,4.526272
+SITE_0226,Tomb of Sashnova,1,3,1,1,5,1,7,Direct,Direct,Earthwork (earthen burial mound),2.958077
+SITE_0227,Golyama Arsenalka tomb,1,3,1,1,1,1,7,Direct,Direct,Earthwork (earthen burial mound),2.605701
+SITE_0228,Mezideva Fortress,2,3,1,1,1,7,1,Direct,Direct,Mortared stone masonry,4.090776
+SITE_0229,Ostrusha tomb,3,3,1,1,5,3,7,Direct,Direct,Earthwork (earthen burial mound),3.182194
+SITE_0230,Sarafova Mogila,1,3,1,1,1,3,7,Direct,Direct,Earthwork (earthen burial mound),2.853491
+SITE_0231,Tomb of Helvetia,1,3,1,1,,3,7,Urban excl.,Direct,Earthwork (earthen burial mound),3.032546
+SITE_0232,Tomb of Malka Kosmatka,1,3,1,1,5,3,7,Direct,Direct,Earthwork (earthen burial mound),3.205867
+SITE_0233,Tomb of Seuthes III,1,3,1,1,5,3,7,Direct,Direct,Earthwork (earthen burial mound),3.205867
+SITE_0234,Tomb of Shushmanets,3,3,1,1,,7,7,Urban excl.,Direct,Earthwork (earthen burial mound),5.029656
+SITE_0235,Tomb of Svetitzata,1,3,1,1,5,1,7,Direct,Direct,Earthwork (earthen burial mound),2.958077
+SITE_0236,Tomb of The Griffins,1,3,1,1,3,3,7,Direct,Direct,Earthwork (earthen burial mound),3.029679
+SITE_0237,Augusta Traiana Vereia,1,5,3,1,,1,1,Urban excl.,Direct,Mortared stone masonry,2.933462
+SITE_0238,Neolithic dwellings,1,5,1,1,,7,9,Urban excl.,Direct,Earthwork / earthen architecture,4.592600
+SITE_0239,Bereket Mound,1,5,1,1,1,1,9,Direct,Direct,Earthwork / earthen architecture,3.532743
+SITE_0240,Roman mineral baths,1,3,1,1,,3,1,Urban excl.,Direct,Mortared stone masonry,1.916215
+SITE_0241,Fortress Zemlen,1,7,9,1,3,1,1,Direct,Direct,Mortared stone masonry,5.290171
+SITE_0242,Cheir maj Kaleto,1,9,9,5,3,3,1,Direct,Direct,Mortared stone masonry,6.248210
+SITE_0243,Hisara Fortress,1,9,9,3,,5,1,Other excl.,Direct,Mortared stone masonry,6.766541
+SITE_0244,Monastery of St. Athanasius the Great,1,9,9,5,,3,3,Urban excl.,Direct,Mortared mixed masonry (stone + brick),6.934111
+SITE_0245,Kaleto Fortress Bolyarovo,1,1,9,1,1,3,1,Direct,Direct,Mortared stone masonry,3.598638
+SITE_0246,Ancient Kabile,1,3,7,5,1,3,1,Direct,Direct,Mortared stone masonry,3.721174
+SITE_0247,Roman residence,1,1,9,1,5,1,1,Direct,Direct,Mortared stone masonry,3.703224
+SITE_0248,Malkoto Kale Fortress,1,1,9,1,1,5,1,Direct,Direct,Mortared stone masonry,3.846428
+SITE_0249,Dabilin Fortress,1,3,7,7,,1,1,Urban excl.,Direct,Mortared stone masonry,3.779511
+SITE_0250,Zaychi Vrah,3,3,7,3,5,7,1,Direct,Direct,Mortared stone masonry,5.362049
