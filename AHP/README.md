@@ -72,16 +72,18 @@ All of the clusters have values within the acceptable range for the CR.
 
 ## Folder structure
 
+```text
 AHP/
-    ├── README.md
-    ├── matrices/
-    │   ├── Thrace\_AHP\_C1.xlsx
-    │   ├── Thrace\_AHP\_C2.xlsx
-    │   └── Thrace\_AHP\_C3.xlsx
-    ├── evidence/
-    │   └── AHP\_Pairwise\_Evidence\_Worksheet.xlsx
-    └── results/
-        └── AHP\_cluster\_summary.csv
+├── README.md
+├── matrices/
+│   ├── Thrace_AHP_C1.xlsx
+│   ├── Thrace_AHP_C2.xlsx
+│   └── Thrace_AHP_C3.xlsx
+├── evidence/
+│   └── AHP_Pairwise_Evidence_Worksheet.xlsx
+└── results/
+    └── AHP_cluster_summary.csv
+```
 
 
 ## File descriptions
