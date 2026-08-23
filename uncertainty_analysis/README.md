@@ -48,13 +48,13 @@ The script differentiates between documented non-applicable values from intentio
 
 The following cases are treated as intentional N/A values:
 
-* `RUSLE\_SCR` is omitted when `Rusle\_MTH` is `Urban excl.`, `Coastal excl.`, or `Other excl.`
-* `ELSUS\_SCR` is omitted when `ELSUS\_MTH` is `NoData>400m`
-* `ASSET\_SCR` is omitted when `Material\_general` is `Unknown / Not specified`
+* `RUSLE_SCR` is omitted when `Rusle_MTH` is `Urban excl.`, `Coastal excl.`, or `Other excl.`
+* `ELSUS_SCR` is omitted when `ELSUS_MTH` is `NoData>400m`
+* `ASSET_SCR` is omitted when `Material_general` is `Unknown / Not specified`
 
 For these cases, the remaining AHP weights are renormalized for that site.
 
-Unexpected missing criterion values are recorded in `00\_Data\_Quality.csv` and stop the analysis from running.
+Unexpected missing criterion values are recorded in `00_Data_Quality.csv` and stop the analysis from running.
 
 ### Baseline validation
 
@@ -62,13 +62,13 @@ Before the Monte Carlo simulations are run, the script recalculates the baseline
 
 The calculated baseline is compared with the existing ArcGIS WLC field:
 
-`WLC\_RISK2`
+`WLC_RISK2`
 
 The comparison uses a tolerance of:
 
 `1e-5`
 
-If any site differs from the ArcGIS baseline by more than this tolerance, the analysis stops and the differences are recorded in `01A\_Baseline\_Validation.csv`.
+If any site differs from the ArcGIS baseline by more than this tolerance, the analysis stops and the differences are recorded in `01A_Baseline_Validation.csv`.
 
 ### Risk classification
 
@@ -115,38 +115,39 @@ The output records the mean and maximum absolute changes in these values between
 
 ### Folder structure
 
-&#x20;   uncertainty\_analysis/
+```text
+uncertainty_analysis/
     ├── README.md
     ├── inputs/
-    │   └── Sites\_uncertainty\_input.csv
+    │   └── Sites_uncertainty_input.csv
     ├── results/
-    │   ├── 00\_Data\_Quality.csv
-    │   ├── 01\_Baseline\_Weights.csv
-    │   ├── 01A\_Baseline\_Validation.csv
-    │   ├── 02\_MC\_Iteration\_Weights.csv
-    │   ├── 03\_MC\_Site\_Summary.csv
-    │   ├── 04\_MC\_Cluster\_Summary.csv
-    │   ├── 05\_MC\_Convergence.csv
-    │   ├── 06\_Top\_20\_Uncertain\_Sites.csv
-    │   └── Run\_Log.txt
+    │   ├── 00_Data_Quality.csv
+    │   ├── 01_Baseline_Weights.csv
+    │   ├── 01A_Baseline_Validation.csv
+    │   ├── 02_MC_Iteration_Weights.csv
+    │   ├── 03_MC_Site_Summary.csv
+    │   ├── 04_MC_Cluster_Summary.csv
+    │   ├── 05_MC_Convergence.csv
+    │   ├── 06_Top_20_Uncertain_Sites.csv
+    │   └── Run_Log.txt
     └── scripts/
-        └── Thrace\_AHP\_Monte\_Carlo.py
-
+        └── Thrace_AHP_Monte_Carlo.py
+```
 
 ### Input file
 
-### `Sites\_uncertainty\_input.csv`
+### `Sites_uncertainty_input.csv`
 
 The input table contains the site identifiers, cluster assignments, standardized criterion scores, fields used to identify intentional N/A values, and the existing ArcGIS WLC score used for baseline validation.
 
-The `\_MTH` fields are method/status fields used to document how criterion values were assigned or why a value is unavailable.
+The `_MTH` fields are method/status fields used to document how criterion values were assigned or why a value is unavailable.
 
 |Field|Description|
 |-|-|
-|`Rusle\_MTH`|Method/status field for the RUSLE soil erosion score, including documented exclusions|
-|`ELSUS\_MTH`|Method/status field for the ELSUS landslide susceptibility score, including sites where no valid cell was available within 400 m|
-|`Material\_general`|General material/physical typology used to identify sites where an Asset Vulnerability score could not be assigned|
-|`WLC\_RISK2`|Existing ArcGIS WLC result used to validate the recalculated baseline before the simulations begin|
+|`Rusle_MTH`|Method/status field for the RUSLE soil erosion score, including documented exclusions|
+|`ELSUS_MTH`|Method/status field for the ELSUS landslide susceptibility score, including sites where no valid cell was available within 400 m|
+|`Material_general`|General material/physical typology used to identify sites where an Asset Vulnerability score could not be assigned|
+|`WLC_RISK2`|Existing ArcGIS WLC result used to validate the recalculated baseline before the simulations begin|
 
 Precise archaeological site coordinates are not included.
 
@@ -156,31 +157,31 @@ The script also reads the three AHP workbooks from:
 
 These are:
 
-* `Thrace\_AHP\_C1.xlsx`
-* `Thrace\_AHP\_C2.xlsx`
-* `Thrace\_AHP\_C3.xlsx`
+* `Thrace_AHP_C1.xlsx`
+* `Thrace_AHP_C2.xlsx`
+* `Thrace_AHP_C3.xlsx`
 
 ### Output files
 
-### `00\_Data\_Quality.csv`
+### `00_Data_Quality.csv`
 
 Records sites with intentional N/A criteria or unexpected missing criterion values and documents the reason for each exclusion.
 
-### `01\_Baseline\_Weights.csv`
+### `01_Baseline_Weights.csv`
 
 Contains the baseline AHP criterion weights and consistency statistics for the 3 clusters.
 
-### `01A\_Baseline\_Validation.csv`
+### `01A_Baseline_Validation.csv`
 
 Compares the baseline WLC recalculated by the script with the existing ArcGIS `WLC\_RISK2` value for each site.
 
-### `02\_MC\_Iteration\_Weights.csv`
+### `02_MC_Iteration_Weights.csv`
 
 Contains the 6 normalized criterion weights generated for each Monte Carlo iteration and cluster.
 
 This file contains 3,000 sets of simulated criterion weights based on 1,000 simulations for each of the 3 clusters .
 
-### `03\_MC\_Site\_Summary.csv`
+### `03_MC_Site_Summary.csv`
 
 Contains the site-level uncertainty results, including:
 
@@ -196,7 +197,7 @@ Contains the site-level uncertainty results, including:
 
 Precise site coordinates are not included in the public version.
 
-### `04\_MC\_Cluster\_Summary.csv`
+### `04_MC_Cluster_Summary.csv`
 
 Summarizes the site-level Monte Carlo results by cluster.
 
@@ -209,17 +210,17 @@ The file includes cluster summaries including:
 * Classification stability
 * Number of sites where Monte Carlo mean risk class is different from the baseline class
 
-### `05\_MC\_Convergence.csv`
+### `05_MC_Convergence.csv`
 
 Records changes in the site-level Monte Carlo means and standard deviations between the successive convergence checkpoints.
 
-### `06\_Top\_20\_Uncertain\_Sites.csv`
+### `06_Top_20_Uncertain_Sites.csv`
 
 Contains the 20 sites with the highest coefficient of variation in the Monte Carlo results.
 
 Precise site coordinates are not included in the public version.
 
-### `Run\_Log.txt`
+### `Run_Log.txt`
 
 Provides a record of the analysis run, including:
 
@@ -240,19 +241,20 @@ The script requires:
 
 Install `openpyxl` with:
 
-&#x20;   python -m pip install openpyxl
-
+```bash
+python -m pip install openpyxl
+```
 
 ## Running the script
 
 From the repository root, run:
-
-&#x20;   python uncertainty\_analysis/scripts/Thrace\_AHP\_Monte\_Carlo.py
-
+```bash
+python uncertainty_analysis/scripts/Thrace_AHP_Monte_Carlo.py
+```
 
 The script reads the AHP matrices and uncertainty input table from their repository locations and writes the output files to:
 
-`uncertainty\_analysis/results/`
+`uncertainty_analysis/results/`
 
 ## Reproducibility
 
