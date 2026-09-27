@@ -1,0 +1,10 @@
+AHP_output,Global
+Seismic,0.269764
+Wildfire,0.255876
+Flood,0.039157
+Soil erosion,0.058735
+Landslide,0.255876
+Asset vulnerability,0.120593
+Lambda_max,6.311816
+CI,0.062363
+CR,0.050293

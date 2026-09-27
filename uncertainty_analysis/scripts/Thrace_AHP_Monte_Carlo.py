@@ -43,7 +43,7 @@ Score_fields = {
     "Asset Vulnerability": "ASSET_SCR",
 }
 
-Baseline_WLC_field = "WLC_RISK2"
+Baseline_WLC_field = "WLC_RISK3"
 Iterations = 1000
 Perturbation_fraction = 0.10
 Random_seed = 20260813

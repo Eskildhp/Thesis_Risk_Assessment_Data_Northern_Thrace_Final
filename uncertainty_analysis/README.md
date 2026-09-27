@@ -4,6 +4,8 @@ This folder contains the Monte Carlo uncertainty analysis used to evaluate the e
 
 The analysis is performed separately for the 3 clusters used.
 
+The input uses the final five-component `SEIS_SCR` values and the final cluster-specific AHP matrices in `../AHP/matrices/`. The recalculated baseline risk scores and classes correspond to `WLC_RISK3` and `RISK_CL3` in `../data/Sites_master.csv`.
+
 ### Method
 
 The script reads the AHP pairwise comparison matrix for each cluster and reproduces the baseline criterion weights using column normalization and the mean of each normalized row.
@@ -31,28 +33,28 @@ Six criteria are included in the uncertainty analysis:
 
 ### WLC recalculation
 
-The WLC score is recalculated for every Monte Carlo simulation run using the perturbed criterion weights.
+Each Monte Carlo run gives a new set of weights. These are used to calculate the WLC scores for that run.
 
-In cases where a criterion is not available for a site the criterion is omitted and the remaining weights are renormalized:
+Some sites do not have values for all six criteria. If a value is missing, the WLC is calculated from the criteria that have values:
 
 `WLC = Σ(wj × xj) / Σ(wj for available criteria)`
 
 where:
 
-* `wj` is the cluster-specific AHP weight for criterion `j`
-* `xj` is the standardized site score for criterion `j`
+* `wj` AHP weight for criterion `j`
+* `xj` site score for criterion `j`
 
-### Intentional N/A values
+### Missing values
 
-The script differentiates between documented non-applicable values from intentional missing data.
+Some values are missing due to the way the original environmental data were handled:
 
 The following cases are treated as intentional N/A values:
 
-* `RUSLE_SCR` is omitted when `Rusle_MTH` is `Urban excl.`, `Coastal excl.`, or `Other excl.`
-* `ELSUS_SCR` is omitted when `ELSUS_MTH` is `NoData>400m`
-* `ASSET_SCR` is omitted when `Material_general` is `Unknown / Not specified`
+* `RUSLE_SCR` is not used when `Rusle_MTH` is `Urban excl.`, `Coastal excl.`, or `Other excl.`
+* `ELSUS_SCR` is not used when `ELSUS_MTH` is `NoData>400m`
+* `ASSET_SCR` is not used when `Material_general` is `Unknown / Not specified`
 
-For these cases, the remaining AHP weights are renormalized for that site.
+For these sites, the WLC calculation uses the criteria that are available.
 
 Unexpected missing criterion values are recorded in `00_Data_Quality.csv` and stop the analysis from running.
 
@@ -62,17 +64,18 @@ Before the Monte Carlo simulations are run, the script recalculates the baseline
 
 The calculated baseline is compared with the existing ArcGIS WLC field:
 
-`WLC_RISK2`
+`WLC_RISK3`
 
 The comparison uses a tolerance of:
 
 `1e-5`
 
-If any site differs from the ArcGIS baseline by more than this tolerance, the analysis stops and the differences are recorded in `01A_Baseline_Validation.csv`.
+If the difference is greater than this tolerance, the analysis stops. The site and the difference are saved in `01A_Baseline_Validation.csv`.
+
 
 ### Risk classification
 
-The baseline and simulated WLC scores use the same five risk classes as the main risk assessment:
+The baseline and simulated WLC scores are classified using the same ranges:
 
 |Risk class|WLC score|
 |-|-|
@@ -84,30 +87,32 @@ The baseline and simulated WLC scores use the same five risk classes as the main
 
 ### Uncertainty measures
 
-For each archaeological site, the simulation results are summarized using:
+The 1,000 simulations give a range of results for each archaeological site. For each site, the following were calculated:
 
-* Mean simulated WLC score
-* Population standard deviation
+* Mean WLC
+* Standard deviation
 * Coefficient of variation
-* Minimum simulated WLC score
-* Maximum simulated WLC score
+* Lowest WLC score
+* Highest WLC score
 * Difference between the Monte Carlo mean and baseline WLC
 * Risk class of the Monte Carlo mean
-* Percentage of simulations remaining in the baseline risk class
+* Percentage of runs where the site stays in the baseline risk class
 
-Classification stability is calculated as the percentage of the 1,000 simulations where a site remains in its original baseline risk class.
+The percentage in the original risk class is used to show class stability.
 
-The results also record the number and percentage of simulations where each site falls in each of the 5 risk classes.
+Of the 250 sites, 225 do not change risk class in any of the 1,000 runs. The other 25 change at least once. The values can be checked against the `MC_*` fields in `../data/Sites_master.csv`.
+
+The results also show how often each site is assigned to each of the five risk classes.
 
 ### Convergence checks
 
-Simulation convergence is checked after:
+The simulation was checked at five points to see whether the results had stabilized:
 
-* 100 iterations
-* 250 iterations
-* 500 iterations
-* 750 iterations
-* 1,000 iterations
+* 100 runs
+* 250 runs 
+* 500 runs
+* 750 runs
+* 1,000 runs
 
 At each checkpoint, the site-level Monte Carlo means and standard deviations are compared with the previous checkpoint.
 
@@ -138,20 +143,20 @@ uncertainty_analysis/
 
 ### `Sites_uncertainty_input.csv`
 
-The input table contains the site identifiers, cluster assignments, standardized criterion scores, fields used to identify intentional N/A values, and the existing ArcGIS WLC score used for baseline validation.
+This file has the data used for the Monte Carlo analysis. It contains the site ID, cluster, criterion scores and the original `WLC_RISK3` score. The original WLC score is used to check the calculation before running the simulations.
 
-The `_MTH` fields are method/status fields used to document how criterion values were assigned or why a value is unavailable.
+The `_MTH` fields show why some RUSLE and ELSUS values are missing.
 
 |Field|Description|
 |-|-|
-|`Rusle_MTH`|Method/status field for the RUSLE soil erosion score, including documented exclusions|
-|`ELSUS_MTH`|Method/status field for the ELSUS landslide susceptibility score, including sites where no valid cell was available within 400 m|
-|`Material_general`|General material/physical typology used to identify sites where an Asset Vulnerability score could not be assigned|
-|`WLC_RISK2`|Existing ArcGIS WLC result used to validate the recalculated baseline before the simulations begin|
+|`Rusle_MTH`|Status field for the RUSLE soil erosion score, including documented exclusions|
+|`ELSUS_MTH`|Status field for the ELSUS landslide susceptibility score, including sites where no valid cell was available within 400 m|
+|`Material_general`|Material/typology used for asset vulnerability|
+|`WLC_RISK3`|WLC risk score used to validate the recalculated baseline before the simulations begin|
 
-Precise archaeological site coordinates are not included.
+The public file does not contain site coordinates.
 
-The script also reads the three AHP workbooks from:
+The script also uses the three AHP matrices in:
 
 `../AHP/matrices/`
 
@@ -165,21 +170,21 @@ These are:
 
 ### `00_Data_Quality.csv`
 
-Records sites with intentional N/A criteria or unexpected missing criterion values and documents the reason for each exclusion.
+Lists sites with missing criterion values and the reason for the missing value.
 
 ### `01_Baseline_Weights.csv`
 
-Contains the baseline AHP criterion weights and consistency statistics for the 3 clusters.
+Shows the AHP weights and consistency results for the three clusters.### `01A_Baseline_Validation.csv`
 
 ### `01A_Baseline_Validation.csv`
 
-Compares the baseline WLC recalculated by the script with the existing ArcGIS `WLC\_RISK2` value for each site.
+Compares the baseline WLC recalculated by the script with the final ArcGIS `WLC_RISK3` value for each site.
 
 ### `02_MC_Iteration_Weights.csv`
 
 Contains the 6 normalized criterion weights generated for each Monte Carlo iteration and cluster.
 
-This file contains 3,000 sets of simulated criterion weights based on 1,000 simulations for each of the 3 clusters .
+This file contains 3,000 sets of simulated criterion weights based on 1,000 simulations for each of the 3 clusters.
 
 ### `03_MC_Site_Summary.csv`
 
@@ -247,18 +252,16 @@ python -m pip install openpyxl
 
 ## Running the script
 
-From the repository root, run:
+Run the script from the repository root:
 ```bash
 python uncertainty_analysis/scripts/Thrace_AHP_Monte_Carlo.py
 ```
 
-The script reads the AHP matrices and uncertainty input table from their repository locations and writes the output files to:
+The results are saved in:
 
 `uncertainty_analysis/results/`
 
 ## Reproducibility
 
-The Monte Carlo analysis uses the fixed random seed `20260813`.
-
-Running the script with the same input files, AHP matrices, and Python implementation will reproduce the same sequence of simulated weight perturbations.
+`20260813` is used as the random seed, making it possible for the simulation to be repeated with the same inputs files.
 

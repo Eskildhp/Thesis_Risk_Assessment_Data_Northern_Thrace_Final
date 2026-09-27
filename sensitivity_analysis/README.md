@@ -1,14 +1,16 @@
 # AHP Sensitivity Analysis
 
-This folder contains the OAT sensitivity analysis used to evaluate how changes in the cluster-specific AHP pairwise comparisons affect the criterion weights, consistency, WLC risk scores and the final risk classes. The analysis was performed individually for the 3 clusters.  
+This folder contains the OAT sensitivity analysis for the three environmental clusters. The analysis tests how changes to the AHP pairwise comparisons affect the criterion weights, consistency, WLC risk scores and risk classes.
+
+The analysis uses the final `SEIS_SCR` values and the final AHP matrices in `../AHP/matrices/`. The baseline WLC scores and classes are `WLC_RISK3` and `RISK_CL3` in `../data/Sites_master.csv`.
 
 ## Method
 
-The script reads the AHP pairwise comparison matrix for the cluster and reproduces the baseline criterion weights using column normalization and the mean of each normalized row.
+The script reads the AHP matrix for each cluster and calculates the criterion weights by normalizing the columns and taking the mean of each row.
 
-Each pairwise comparison is changed by one level on the Saaty comparison scale in both directions where possible. The reciprocal comparison is updated automatically.
+Each pairwise comparison is then moved one level up and one level down on the Saaty scale where possible. The reciprocal value is changed at the same time.
 
-After each change, the script recalculates:
+For each change, the script recalculates:
 
 * criterion weights
 * maximum eigenvalue (`λmax`)
@@ -17,21 +19,23 @@ After each change, the script recalculates:
 * WLC risk scores
 * Site risk classes
 
-The alternative matrices are only used for the sensitivity analysis when `CR < 0.10`.
+Only matrices with `CR < 0.10` are used.
 
-The procedure produces 90 sensitivity runs.
+There are 90 runs in total, 30 for each cluster. All 90 matrices have a `CR < 0.10`. 
+
+The site-level results contain 7,500 rows, with 30 runs for each of the 250 sites. Fifteen sites change risk class in at least one run. These results agree with `SUM_Changed_Num` in `../data/Sites_master.csv`.
 
 ## Saaty comparison scale
 
-The script uses the Saaty comparison sequence:
+The script uses the following Saaty scale:
 
 `1/9, 1/8, 1/7, 1/6, 1/5, 1/4, 1/3, 1/2, 1, 2, 3, 4, 5, 6, 7, 8, 9`
 
-Each comparison is moved by one level at a time.
+Each pairwise comparison is changed by one step in each direction where possible.
 
 ## WLC recalculation
 
-The six criteria used in the sensitivity analysis are:
+The analysis uses six criteria:
 
 * Seismic hazard
 * Wildfire hazard
@@ -40,34 +44,30 @@ The six criteria used in the sensitivity analysis are:
 * Landslide susceptibility
 * Asset vulnerability
 
-The WLC score is recalculated in each sensitivity run using the alternative AHP weights.
-
-In cases where a criterion is not available for a site, the criterion is not included and the remaining weights are renormalized:
+The changed weights were then used to calculate the WLC risk scores for that run. Not all sites have scores for all six criteria. Where a score is missing, it is excluded from the calculation and the weights for the criteria that are present are adjusted to sum to 1:
 
 `WLC = Σ(wj × xj) / Σ(wj for available criteria)`
 
 where:
 
-* `wj` is the cluster-specific AHP weight for criterion `j`
-* `xj` is the standardized site score for criterion `j`
+* `wj` is the AHP weight for criterion `j`
+* `xj` is the standardized score for criterion `j`
 
-## Intentional N/A values
+## Missing
 
-The script differentiates between documented non-applicable values from unexpected missing data.
-
-The following cases are treated as intentional N/A values:
+Some missing criterion values are expected from the original data:
 
 * `RUSLE_SCR` is omitted when `Rusle_MTH` is `Urban excl.`, `Coastal excl.`, or `Other excl.`
 * `ELSUS_SCR` is omitted when `ELSUS_MTH` is `NoData>400m`
 * `ASSET_SCR` is omitted when `Material_general` is `Unknown / Not specified`
 
-In these cases, the remaining AHP weights are renormalized for that site.
+For these sites, the other weights are adjusted to sum to 1.
 
-Unexpected missing criterion values are recorded in `00_Data_Quality.csv` and stop the analysis.
+Any other missing criterion value is recorded in `00_Data_Quality.csv` and stop the analysis.
 
 ## Risk classification
 
-Recalculated WLC scores are assigned to the same 5 risk classes used in the main risk assessment:
+The recalculated WLC scores use the same five risk classes as the main risk assessment:
 
 |Risk class|WLC score|
 |-|-|
@@ -79,11 +79,11 @@ Recalculated WLC scores are assigned to the same 5 risk classes used in the main
 
 ## Sensitivity measures
 
-Two main forms of change are recorded.
+The analysis records changes in the risk classes and the Overall Change Rate (OCR).
 
 ### Site class changes
 
-For each sensitivity run, the script records:
+For each run, the script records:
 
 * Number of sites that change risk class
 * Percentage of sites that change risk class
@@ -92,7 +92,7 @@ For each sensitivity run, the script records:
 
 The script also calculates the Overall Change Rate (OCR) adapted from Chen et al. (2013).
 
-The original method compares changes in raster cell counts between classes. The calculation is adapted to compare the number of archaeological sites in each risk class before and after each pairwise comparison change.
+The Overall Change Rate (OCR) is adapted from Chen et al. (2013). Their method compares changes in the number of raster cells in each class. Here, the calculation uses the number of archaeological sites in each risk class before and after each change to a pairwise comparison.
 
 ## Folder structure
 
@@ -114,19 +114,21 @@ The original method compares changes in raster cell counts between classes. The 
 
 ### `Sites_sensitivity_input.csv`
 
-The input table contains the site identifiers, environmental cluster assignments, standardized criterion scores and the supporting fields needed to identify the intentional N/A values.
+This is the input file for the sensitivity analysis. It has the site ID, cluster and the six criterion scores for each site. It also has the fields needed to account for missing values.
 
-The _MTH fields are method/status fields used to document how criterion values were assigned or why a value is not available. Rusle_MTH records cases where the RUSLE soil-erosion criterion was excluded, while ELSUS_MTH records the treatment of landslide-susceptibility NoData values. Material_general is used to identify sites where an Asset Vulnerability score could not be assigned.
+`SEIS_SCR` is the seismic score used in the final analysis. It combines PGA, epicentre density, magnitude, focal depth and fault distance. A score is available for all 250 sites.
+
+The `_MTH` fields show how the RUSLE and ELSUS values were handled. `Rusle_MTH` identifies the RUSLE exclusions and `ELSUS_MTH` identifies sites where ELSUS NoData was more than 400 m from the site. `Material_general` is used for sites where asset vulnerability could not be scored.
 
 |Field|Description|
 |-|-|
-|`Rusle_MTH`|Method/status field for the RUSLE soil erosion score, including documented exclusions|
-|`ELSUS_MTH`|Method/status field for the ELSUS landslide susceptibility score, including sites where no valid cell was available within 400 m|
-|`Material_general`|General material/physical typology used to identify sites where an Asset Vulnerability score could not be assigned|
+|`Rusle_MTH`|Method/status for the RUSLE score and exclusions|
+|`ELSUS_MTH`|Method/status for ELSUS, including sites with no valid cell within 400 m|
+|`Material_general`|General construction material used for the asset vulnerability score|
 
 Precise archaeological site coordinates are not included.
 
-The script also reads the three AHP workbooks from:
+The script also reads the three AHP matrices from:
 
 `../AHP/matrices/`
 
@@ -140,38 +142,38 @@ These are:
 
 ### `00_Data_Quality.csv`
 
-Records sites with intentional N/A criteria or missing criterion values and documents the reason for each exclusion.
+Records sites with intentional N/A criteria or missing criterion values and documents the reason for each Lists the sites with missing criteria and the reason why the value is missing.
 
 ### `01_Baseline_Weights.csv`
 
-Contains the baseline AHP criterion weights and consistency statistics for the 3 clusters.
+Contains the original AHP weights and consistency results for each cluster.
 
 ### `02_Pairwise_Sensitivity_Runs.csv`
 
-Contains the results for each pairwise comparison change including:
+Contains the results from the 90 changes to the pairwise comparisons, including:
 
 * Baseline and perturbed Saaty values
-* Alternative criterion weights
+* Changed criterion weights
 * Baseline and alternative CR
-* Number and percentage of sites changing class
+* Number and percentage of sites changing risk class
 * OCR
-* Baseline and alternative risk-class counts
+* Number of sites in each risk class before and after the change
 
 ### `03_Site_Level_Sensitivity.csv`
 
-Contains the results for each accepted sensitivity run including:
+Contains the results for each site and each sensitivity run, including:
 
-* Baseline and alternative WLC scores
-* Baseline and alternative risk classes
-* Whether the site changed class
-* Criteria excluded as intentional N/A values
+* Baseline and recalculated WLC scores
+* Baseline and recalculated risk classes
+* Whether the site changed risk class
+* Criteria excluded due to missing values
 * Weight sums before and after perturbation
 
-Precise site coordinates are not included in the public version.
+Precise archaeological site coordinates are not included.
 
 ### `04_Criterion_Sensitivity_Summary.csv`
 
-Summarizes the sensitivity results by cluster and criterion using:
+Summarizes the results for each cluster and criterion, including:
 
 * Number of valid runs
 * Mean and maximum OCR
@@ -179,7 +181,7 @@ Summarizes the sensitivity results by cluster and criterion using:
 
 ### `Run_Log.txt`
 
-Provides a concise record of the analysis run, including the number of sites, baseline CR values, number of sensitivity runs and the number of accepted and rejected matrices.
+Records the number of sites, original CR values, number of runs and the number of accepted and rejected matrices.
 
 ## Requirements
 
@@ -198,7 +200,7 @@ From the repository root or the script directory, run:
 
     python sensitivity_analysis/scripts/Thrace_AHP_Sensitivity.py
 
-The script reads the required AHP workbooks and sensitivity input table from the repository locations and writes the resulting files to:
+The script reads the AHP matrices and input file and saves the results in:
 
 `sensitivity_analysis/results/`
 

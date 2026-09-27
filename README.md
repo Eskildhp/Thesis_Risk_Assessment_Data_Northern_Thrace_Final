@@ -7,9 +7,9 @@ Repository contents
 The repository contains supporting material used to document the analytical workflow of the thesis, including:
 
 * The archaeological site master dataset (public version)
-* Scripts and documentation for the environmental data 
+* Script and documentation for Copernicus DEM acquisition
 * Environmental clustering data and visualizations
-* Cluster-specific AHP matrices, evidence and calculations
+* Cluster-specific and global AHP matrices, evidence and calculations
 * Risk assessment data and WLC results
 * Getis-Ord Gi* hotspot analysis data and documentation
 * OAT sensitivity analysis data, scripts and results
@@ -90,13 +90,13 @@ Each analytical folder contains its own README with more detailed information ab
 
 The `data/` folder contains the public site-level master dataset used in the thesis workflow.
 
-`Sites_master.csv` contains archaeological, descriptive, environmental and analytical attributes for the 250 archaeological sites included in the final analysis.
+`Sites_master.csv` contains site descriptions, standardized criterion scores and final analytical outputs for the 250 archaeological sites included in the final analysis.
 
 Precise site coordinates are not included in the public dataset.
 
 ### Data acquisition
 
-The `data_acquisition/` folder has the documentation and scripts for external environmental datasets.
+The `data_acquisition/` folder has the documentation and script for Copernicus DEM acquisition.
 
 A PowerShell script was used to identify and download Copernicus DEM tiles for the study area through the Copernicus Data Space Ecosystem.
 
@@ -120,11 +120,12 @@ Detailed information is found in `clustering/README.md`.
 
 ### Analytic Hierarchy Process
 
-The `AHP/` folder has the 3 cluster-specific AHP models used to derive the criterion weights.
+The `AHP/` folder has the 3 cluster-specific AHP models used to derive the criterion weights and a global AHP model used for comparison.
 
 It includes:
 
 * The pairwise comparison matrices for Clusters 1, 2 and 3
+* The global comparison matrix and supporting evidence
 * The evidence used to support the pairwise comparisons
 * Calculated criterion weights
 * Consistency calculations and summary results
@@ -135,7 +136,7 @@ Detailed information is provided in `AHP/README.md`.
 
 The `risk_assessment/` folder contains the final site-level Weighted Linear Combination results.
 
-The results include the standardized criterion scores, cluster assignment, final WLC archaeological risk score and categorical risk classification for each archaeological site.
+The results include the standardized criterion scores, cluster assignment, final WLC archaeological risk score and categorical risk classification for each archaeological site, together with the global AHP comparison.
 
 Detailed information is provided in `risk_assessment/README.md`.
 
